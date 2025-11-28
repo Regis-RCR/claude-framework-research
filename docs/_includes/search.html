@@ -1,0 +1,271 @@
+{% comment %}
+  Simple search functionality using Lunr.js
+{% endcomment %}
+
+<div class="search-container">
+  <h3>Search Frameworks</h3>
+  <input type="text"
+         id="search-input"
+         class="search-input"
+         placeholder="Search for frameworks, features, or concepts..."
+         aria-label="Search frameworks">
+  <div id="search-results" class="search-results" style="display: none;"></div>
+</div>
+
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script>
+(function() {
+  // Define searchable content
+  var documents = [
+    {
+      id: 'bmad',
+      title: 'BMAD Method',
+      category: 'Methodology',
+      url: '{{ site.baseurl }}/frameworks/bmad-method/',
+      content: 'Document sharding cuts tokens 90% 19 agents 50+ workflows enterprise-grade SOLID 4.4 Production 71 Heavy complexity'
+    },
+    {
+      id: 'riper5',
+      title: 'RIPER-5',
+      category: 'Methodology',
+      url: '{{ site.baseurl }}/frameworks/riper-5/',
+      content: 'State machine prevents AI mistakes 5 phases lightweight complexity SOLID 4.2 Production 72 immediate adoption'
+    },
+    {
+      id: 'superclaude',
+      title: 'SuperClaude',
+      category: 'Methodology',
+      url: '{{ site.baseurl }}/frameworks/superclaude/',
+      content: 'Behavioral injection 16 cognitive personas token optimization SOLID 4.1 Production 73 moderate complexity'
+    },
+    {
+      id: 'simone',
+      title: 'Simone',
+      category: 'Methodology',
+      url: '{{ site.baseurl }}/frameworks/simone/',
+      content: 'Fresh start philosophy context decay problem context injection SOLID 3.6 Production 63'
+    },
+    {
+      id: 'claude-squad',
+      title: 'Claude Squad',
+      category: 'Orchestrator',
+      url: '{{ site.baseurl }}/frameworks/claude-squad/',
+      content: 'Git worktree isolation conflict-free parallel execution stable SOLID 4.0 Production 68'
+    },
+    {
+      id: 'claude-swarm',
+      title: 'Claude Swarm',
+      category: 'Orchestrator',
+      url: '{{ site.baseurl }}/frameworks/claude-swarm/',
+      content: 'SwarmMemory 15x token efficiency single process architecture SOLID 4.1 Production 80'
+    },
+    {
+      id: 'claude-task-master',
+      title: 'Claude Task Master',
+      category: 'Orchestrator',
+      url: '{{ site.baseurl }}/frameworks/claude-task-master/',
+      content: 'MCP task orchestration PRD decomposition SOLID 4.2 Production 83'
+    },
+    {
+      id: 'claude-code-by-agents',
+      title: 'Claude Code by Agents',
+      category: 'Orchestrator',
+      url: '{{ site.baseurl }}/frameworks/claude-code-by-agents/',
+      content: 'Hybrid local remote intelligent routing highest SOLID 4.5 Production 69'
+    },
+    {
+      id: 'claude-flow',
+      title: 'Claude Flow',
+      category: 'Orchestrator',
+      url: '{{ site.baseurl }}/frameworks/claude-flow/',
+      content: 'Queen-Worker architecture 64 agents AgentDB semantic memory alpha SOLID 3.8 Production 45 heavy complexity'
+    },
+    {
+      id: 'claude-on-rails',
+      title: 'Claude on Rails',
+      category: 'Domain-Specific',
+      url: '{{ site.baseurl }}/frameworks/claude-on-rails/',
+      content: 'Rails specialists Obie Fernandez seven Rails-specific agents conventions SOLID 3.7 Production 68'
+    },
+    {
+      id: 'claudekit',
+      title: 'ClaudeKit',
+      category: 'Domain-Specific',
+      url: '{{ site.baseurl }}/frameworks/claudekit/',
+      content: 'TypeScript JavaScript toolkit 195+ security patterns highest production score SOLID 4.0 Production 81'
+    },
+    {
+      id: 'ab-method',
+      title: 'AB Method',
+      category: 'Methodology',
+      url: '{{ site.baseurl }}/frameworks/ab-method/',
+      content: 'Mission-based decomposition incremental development documentation focus SOLID 3.9 Production 74'
+    },
+    {
+      id: 'ccpm',
+      title: 'CCPM',
+      category: 'Methodology',
+      url: '{{ site.baseurl }}/frameworks/ccpm/',
+      content: 'Claude Code Project Manager parallel Git worktrees structured workflows SOLID 3.7 Production 72'
+    },
+    {
+      id: 'claude-code-dev-kit',
+      title: 'Claude Code Dev Kit',
+      category: 'Methodology',
+      url: '{{ site.baseurl }}/frameworks/claude-code-dev-kit/',
+      content: 'Project scaffolding structured workflow optimization 1.2k stars SOLID 4.2 Production 64'
+    },
+    {
+      id: 'claude-code-heavy',
+      title: 'Claude Code Heavy',
+      category: 'Methodology',
+      url: '{{ site.baseurl }}/frameworks/claude-code-heavy/',
+      content: 'Git worktree isolation parallel research experimental SOLID 3.8 Production 52'
+    },
+    {
+      id: 'contextkit',
+      title: 'ContextKit',
+      category: 'Methodology',
+      url: '{{ site.baseurl }}/frameworks/contextkit/',
+      content: '4-phase planning intelligence context management optimization SOLID 3.8 Production 75'
+    },
+    {
+      id: 'crystal',
+      title: 'Crystal',
+      category: 'Specialty',
+      url: '{{ site.baseurl }}/frameworks/crystal/',
+      content: 'Desktop IVE paradigm integrated visual environment development toolkit SOLID 4.0 Production 74'
+    },
+    {
+      id: 'moai-adk',
+      title: 'MoAI-ADK',
+      category: 'Specialty',
+      url: '{{ site.baseurl }}/frameworks/moai-adk/',
+      content: 'Agentic development kit 32 agents TRUST 5 strong production readiness SOLID 3.8 Production 79'
+    },
+    {
+      id: 'niopd',
+      title: 'NioPD',
+      category: 'Methodology',
+      url: '{{ site.baseurl }}/frameworks/niopd/',
+      content: 'Virtual product manager team Socratic mentorship product management SOLID 3.9 Production 73'
+    },
+    {
+      id: 'systemprompt-orchestrator',
+      title: 'SystemPrompt Orchestrator',
+      category: 'Orchestrator',
+      url: '{{ site.baseurl }}/frameworks/systemprompt-orchestrator/',
+      content: 'Multi-AI coordination Claude Gemini extensible unified interface SOLID 4.3 Production 67'
+    },
+    {
+      id: 'taskmaster-mcp',
+      title: 'Task Master MCP',
+      category: 'Methodology',
+      url: '{{ site.baseurl }}/frameworks/taskmaster-mcp/',
+      content: 'PRD-to-task decomposition MCP integration dependency graphs SOLID 4.2 Production 74 23.9k stars'
+    },
+    {
+      id: 'wshobson-agents',
+      title: 'wshobson-agents',
+      category: 'Orchestrator',
+      url: '{{ site.baseurl }}/frameworks/wshobson-agents/',
+      content: 'Zero-token marketplace agent library strong production SOLID 4.2 Production 83'
+    },
+    {
+      id: 'frameworks',
+      title: 'All Frameworks',
+      category: 'Directory',
+      url: '{{ site.baseurl }}/frameworks/',
+      content: 'Complete framework directory SOLID scores production readiness complexity rankings'
+    },
+    {
+      id: 'comparisons',
+      title: 'Comparisons',
+      category: 'Analysis',
+      url: '{{ site.baseurl }}/comparisons/',
+      content: 'Head-to-head analysis methodology orchestrator domain-specific decision tree'
+    },
+    {
+      id: 'synthesis',
+      title: 'Synthesis',
+      category: 'Analysis',
+      url: '{{ site.baseurl }}/synthesis/',
+      content: 'Cross-framework analysis insights complexity quality metrics patterns best practices'
+    },
+    {
+      id: 'super-hero',
+      title: 'Super-Hero Framework',
+      category: 'Vision',
+      url: '{{ site.baseurl }}/super-hero/',
+      content: 'Ideal framework vision combining best patterns integration innovation proven production'
+    }
+  ];
+
+  // Build Lunr index
+  var idx = lunr(function () {
+    this.ref('id');
+    this.field('title', { boost: 10 });
+    this.field('category', { boost: 5 });
+    this.field('content');
+
+    documents.forEach(function (doc) {
+      this.add(doc);
+    }, this);
+  });
+
+  // Search functionality
+  var searchInput = document.getElementById('search-input');
+  var searchResults = document.getElementById('search-results');
+
+  function performSearch(query) {
+    if (query.length < 2) {
+      searchResults.style.display = 'none';
+      return;
+    }
+
+    try {
+      var results = idx.search(query + '*'); // Add wildcard for partial matches
+
+      if (results.length === 0) {
+        searchResults.innerHTML = '<p>No results found for "' + query + '"</p>';
+        searchResults.style.display = 'block';
+        return;
+      }
+
+      var html = '<h4>Search Results (' + results.length + ')</h4>';
+      results.slice(0, 8).forEach(function(result) {
+        var doc = documents.find(function(d) { return d.id === result.ref; });
+        if (doc) {
+          html += '<div class="search-result-item">';
+          html += '<h5><a href="' + doc.url + '">' + doc.title + '</a></h5>';
+          html += '<p><span class="badge badge-' + doc.category.toLowerCase() + '">' + doc.category + '</span></p>';
+          html += '</div>';
+        }
+      });
+
+      searchResults.innerHTML = html;
+      searchResults.style.display = 'block';
+    } catch(e) {
+      // If search fails, show error gracefully
+      searchResults.innerHTML = '<p>Search error. Please try a different query.</p>';
+      searchResults.style.display = 'block';
+    }
+  }
+
+  // Debounce search
+  var searchTimeout;
+  searchInput.addEventListener('input', function() {
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(function() {
+      performSearch(searchInput.value);
+    }, 300);
+  });
+
+  // Clear results when input is cleared
+  searchInput.addEventListener('blur', function() {
+    setTimeout(function() {
+      // searchResults.style.display = 'none'; // Keep results visible for now
+    }, 200);
+  });
+})();
+</script>
