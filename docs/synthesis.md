@@ -1,6 +1,8 @@
 ---
-title: Framework Synthesis
+title: Synthesis
 layout: default
+nav_order: 4
+permalink: /synthesis/
 ---
 
 # Framework Synthesis

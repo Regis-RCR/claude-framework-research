@@ -1,7 +1,7 @@
 ---
 title: Claude Task Master
-category: mcp
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # Claude Task Master

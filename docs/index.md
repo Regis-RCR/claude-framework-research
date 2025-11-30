@@ -1,6 +1,9 @@
 ---
-title: Framework Research Corpus
+title: Home
 layout: default
+nav_order: 1
+description: "Comprehensive analysis of Claude Code frameworks"
+permalink: /
 ---
 
 # Framework Research Corpus

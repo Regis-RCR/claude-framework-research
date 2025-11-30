@@ -1,7 +1,7 @@
 ---
 title: MoAI-ADK (Agentic Development Kit)
-category: agentic
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # MoAI-ADK (Agentic Development Kit)

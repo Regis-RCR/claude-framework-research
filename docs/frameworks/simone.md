@@ -1,7 +1,7 @@
 ---
 title: Simone
-category: methodology
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # Simone

@@ -1,7 +1,7 @@
 ---
 title: Claude Flow
-category: orchestrator
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # Claude Flow

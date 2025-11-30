@@ -1,7 +1,7 @@
 ---
 title: Claude Squad
-category: orchestrator
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # Claude Squad

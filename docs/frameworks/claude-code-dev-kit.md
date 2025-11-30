@@ -1,7 +1,7 @@
 ---
 title: claude-code-dev-kit
-category: methodology
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # claude-code-dev-kit

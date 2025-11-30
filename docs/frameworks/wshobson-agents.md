@@ -1,7 +1,7 @@
 ---
 title: wshobson/agents
-category: orchestrator
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # wshobson/agents

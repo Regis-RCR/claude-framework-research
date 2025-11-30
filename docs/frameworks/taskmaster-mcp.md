@@ -1,7 +1,7 @@
 ---
 title: taskmaster-mcp
-category: methodology
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # taskmaster-mcp

@@ -1,7 +1,7 @@
 ---
 title: RIPER-5
-category: methodology
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # RIPER-5

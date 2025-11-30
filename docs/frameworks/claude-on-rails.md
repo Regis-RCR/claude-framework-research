@@ -1,7 +1,7 @@
 ---
 title: Claude on Rails
-category: domain-specific
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # Claude on Rails

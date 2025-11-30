@@ -1,6 +1,7 @@
 ---
-title: Orchestrator Comparison
-layout: comparison
+title: Orchestrator
+layout: default
+parent: Comparisons
 ---
 
 # Orchestrator Frameworks Comparison

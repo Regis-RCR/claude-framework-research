@@ -1,7 +1,7 @@
 ---
 title: ContextKit
-category: methodology
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # ContextKit

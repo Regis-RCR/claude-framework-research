@@ -1,7 +1,7 @@
 ---
 title: BMAD Method (Build More, Architect Dreams)
-category: methodology
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # BMAD Method (Build More, Architect Dreams)

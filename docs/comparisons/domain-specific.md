@@ -1,6 +1,7 @@
 ---
-title: Domain-Specific Comparison
-layout: comparison
+title: Domain-Specific
+layout: default
+parent: Comparisons
 ---
 
 # Domain-Specific Frameworks Comparison

@@ -1,6 +1,7 @@
 ---
-title: Methodology Comparison
-layout: comparison
+title: Methodology
+layout: default
+parent: Comparisons
 ---
 
 # Methodology Frameworks Comparison

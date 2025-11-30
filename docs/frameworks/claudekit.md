@@ -1,7 +1,7 @@
 ---
 title: ClaudeKit
-category: domain-specific
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # ClaudeKit

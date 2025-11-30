@@ -1,7 +1,7 @@
 ---
 title: Ab Method
-category: methodology
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # Ab Method

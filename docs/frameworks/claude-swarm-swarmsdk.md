@@ -1,7 +1,7 @@
 ---
 title: Claude Swarm / SwarmSDK
-category: orchestrator
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # Claude Swarm / SwarmSDK

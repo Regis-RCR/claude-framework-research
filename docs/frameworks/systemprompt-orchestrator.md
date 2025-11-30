@@ -1,7 +1,7 @@
 ---
 title: systemprompt-orchestrator
-category: orchestrator
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # systemprompt-orchestrator

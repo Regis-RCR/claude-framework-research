@@ -1,7 +1,7 @@
 ---
 title: SuperClaude
-category: methodology
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # SuperClaude

@@ -1,7 +1,7 @@
 ---
 title: NioPD (Nio Product Director)
-category: pm
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # NioPD (Nio Product Director)

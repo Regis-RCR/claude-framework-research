@@ -1,7 +1,7 @@
 ---
 title: claude-code-heavy
-category: methodology
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # claude-code-heavy
