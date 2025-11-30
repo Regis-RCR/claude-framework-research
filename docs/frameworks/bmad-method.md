@@ -6,35 +6,108 @@ parent: Frameworks
 
 # BMAD Method (Build More, Architect Dreams)
 
-∵ RCR Regis ∴
+<div class="framework-meta">
+<strong>Version:</strong> 6.0.0-alpha.12 |
+<strong>Repository:</strong> <a href="https://github.com/bmad-code-org/BMAD-METHOD">GitHub</a> |
+<strong>License:</strong> MIT
+</div>
 
-**Category:** methodology
-**Version:** 6.0.0-alpha.12
-**Status:** Analyzed
+## Classification
 
-## Scores
+<div class="facets">
+<span class="badge badge-tech">tech: prompt-based</span>
+<span class="badge badge-exec">exec: sequential, single-agent</span>
+<span class="badge badge-function">function: dev-methodology, project-planning</span>
+<span class="badge badge-ecosystem">ecosystem: agnostic, cursor, windsurf, vscode</span>
+<span class="badge badge-scope">scope: project-level</span>
+<span class="badge badge-integration">integration: drop-in</span>
+<span class="badge badge-user">user: solo-dev, team</span>
+<span class="badge badge-complexity">complexity: moderate</span>
+<span class="badge badge-maturity">maturity: stable</span>
+<span class="badge badge-community">community: major</span>
+<span class="badge badge-maintenance">maintenance: active</span>
+</div>
 
-| Metric | Score | Rating |
-|--------|-------|--------|
-| SOLID Principles | 4.3/5.0 | ⭐⭐⭐⭐☆ |
-| Production Ready | 87/100 | 🟢 Production |
+## Scores Summary
 
-### SOLID Breakdown
+<div class="scores-grid">
+<table>
+<thead>
+<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Overall</strong></td>
+<td>4.3/5.0 ⭐⭐⭐⭐☆</td>
+<td><strong>Overall</strong></td>
+<td>87/100 🟢</td>
+</tr>
+<tr>
+<td>S - Single Responsibility</td>
+<td>5.0/5.0</td>
+<td>Reliability</td>
+<td>95</td>
+</tr>
+<tr>
+<td>O - Open/Closed</td>
+<td>4.5/5.0</td>
+<td>Observability</td>
+<td>70</td>
+</tr>
+<tr>
+<td>L - Liskov Substitution</td>
+<td>3.5/5.0</td>
+<td>Security</td>
+<td>75</td>
+</tr>
+<tr>
+<td>I - Interface Segregation</td>
+<td>4.5/5.0</td>
+<td>Performance</td>
+<td>100</td>
+</tr>
+<tr>
+<td>D - Dependency Inversion</td>
+<td>3.5/5.0</td>
+<td>Maintainability</td>
+<td>100</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-| Principle | Score | Notes |
-|-----------|-------|-------|
-| S - Single Responsibility | N/A | - |
-| O - Open/Closed | N/A | - |
-| L - Liskov Substitution | N/A | - |
-| I - Interface Segregation | N/A | - |
-| D - Dependency Inversion | N/A | - |
+## Key Innovations
 
-## Overview
+<ul class="compact-list">
+<li>BMad Core reflection engine for human-AI collaboration</li>
+<li>Document sharding for 90% token reduction</li>
+<li>19 specialized agent personas (agile roles)</li>
+<li>Scale-adaptive intelligence (3 complexity tracks)</li>
+<li>BMad Builder for custom domain modules</li>
+<li>Visual SVG workflow diagrams</li>
+</ul>
 
-*No description available.*
+## Best For
 
+<ul class="compact-list">
+<li>AI-driven agile software development</li>
+<li>Structured methodology for enterprise teams</li>
+<li>Multi-IDE consistent development workflows</li>
+<li>Complex project planning and documentation</li>
+<li>Team collaboration with AI assistants</li>
+</ul>
 
+## Limitations
 
+<ul class="compact-list">
+<li>Significant learning curve (50+ workflows, 19 agents)</li>
+<li>AI token costs for comprehensive workflows</li>
+<li>Rigid phase-based structure</li>
+<li>V6 alpha status (stabilizing)</li>
+<li>Single organization control</li>
+</ul>
+
+---
 
 ## Full Analysis
 
@@ -431,8 +504,12 @@ Scope: [What parts are relevant]
 
 ---
 
-## Navigation
+<footer class="generation-meta">
+<small>
+Generated: 2025-11-30 23:40 UTC |
+Template: framework-page.md.j2 v2.0 |
+<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/bmad-method">Source Data</a>
+</small>
+</footer>
 
-- [← Back to All Frameworks](index.md)
-- [Comparison with similar frameworks](../comparisons/methodology.md)
-- [Full Synthesis](../synthesis.md)
+<footer class="signature">∵ RCR Regis ∴</footer>

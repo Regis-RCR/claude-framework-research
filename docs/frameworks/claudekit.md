@@ -6,26 +6,102 @@ parent: Frameworks
 
 # ClaudeKit
 
-∵ RCR Regis ∴
+<div class="framework-meta">
+<strong>Version:</strong> 0.9.4 |
+<strong>Repository:</strong> <a href="https://github.com/carlrannaberg/claudekit">GitHub</a> |
+<strong>License:</strong> MIT
+</div>
 
-**Category:** domain-specific
-**Version:** 0.9.4
-**Status:** Analyzed
+## Classification
 
-## Scores
+<div class="facets">
+<span class="badge badge-tech">tech: sdk</span>
+<span class="badge badge-exec">exec: single-agent</span>
+<span class="badge badge-function">function: code-generation</span>
+<span class="badge badge-ecosystem">ecosystem: ruby</span>
+<span class="badge badge-scope">scope: project-level</span>
+<span class="badge badge-integration">integration: code-integration</span>
+<span class="badge badge-user">user: solo-dev</span>
+<span class="badge badge-complexity">complexity: moderate</span>
+<span class="badge badge-maturity">maturity: beta</span>
+<span class="badge badge-community">community: growing</span>
+<span class="badge badge-maintenance">maintenance: active</span>
+</div>
 
-| Metric | Score | Rating |
-|--------|-------|--------|
-| SOLID Principles | 4.0/5.0 | ⭐⭐⭐⭐☆ |
-| Production Ready | 81/100 | 🟢 Production |
+## Scores Summary
 
+<div class="scores-grid">
+<table>
+<thead>
+<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Overall</strong></td>
+<td>4.0/5.0 ⭐⭐⭐⭐☆</td>
+<td><strong>Overall</strong></td>
+<td>81/100 🟢</td>
+</tr>
+<tr>
+<td>S - Single Responsibility</td>
+<td>0.0/5.0</td>
+<td>Reliability</td>
+<td>0</td>
+</tr>
+<tr>
+<td>O - Open/Closed</td>
+<td>0.0/5.0</td>
+<td>Observability</td>
+<td>0</td>
+</tr>
+<tr>
+<td>L - Liskov Substitution</td>
+<td>0.0/5.0</td>
+<td>Security</td>
+<td>0</td>
+</tr>
+<tr>
+<td>I - Interface Segregation</td>
+<td>0.0/5.0</td>
+<td>Performance</td>
+<td>0</td>
+</tr>
+<tr>
+<td>D - Dependency Inversion</td>
+<td>0.0/5.0</td>
+<td>Maintainability</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-## Overview
+## Key Innovations
 
-*No description available.*
+<ul class="compact-list">
+<li>Dynamic bash security analysis (195+ patterns)</li>
+<li>Non-destructive checkpoint system (Git stash)</li>
+<li>Parallel multi-agent orchestration (6+ specialists)</li>
+<li>Domain-specific TypeScript/JS tooling</li>
+</ul>
 
+## Best For
 
+<ul class="compact-list">
+<li>TypeScript/JavaScript development with Claude Code Max</li>
+<li>Enhanced safety guarantees</li>
+<li>Automated quality checks</li>
+</ul>
 
+## Limitations
+
+<ul class="compact-list">
+<li>Pre-1.0 (0.9.x series)</li>
+<li>TypeScript/JavaScript specific</li>
+<li>Requires Claude Code Max plan</li>
+</ul>
+
+---
 
 ## Full Analysis
 
@@ -969,8 +1045,12 @@ ClaudeKit is highly recommended for TypeScript/JavaScript development teams on m
 
 ---
 
-## Navigation
+<footer class="generation-meta">
+<small>
+Generated: 2025-11-30 23:40 UTC |
+Template: framework-page.md.j2 v2.0 |
+<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/claudekit">Source Data</a>
+</small>
+</footer>
 
-- [← Back to All Frameworks](index.md)
-- [Comparison with similar frameworks](../comparisons/domain-specific.md)
-- [Full Synthesis](../synthesis.md)
+<footer class="signature">∵ RCR Regis ∴</footer>

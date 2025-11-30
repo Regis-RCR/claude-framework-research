@@ -6,26 +6,104 @@ parent: Frameworks
 
 # RIPER-5
 
-∵ RCR Regis ∴
+<div class="framework-meta">
+<strong>Version:</strong> 2025.11 |
+<strong>Repository:</strong> <a href="https://github.com/NeekChaw/RIPER-5">GitHub</a> |
+<strong>License:</strong> MIT
+</div>
 
-**Category:** methodology
-**Version:** 2025.11
-**Status:** Analyzed
+## Classification
 
-## Scores
+<div class="facets">
+<span class="badge badge-tech">tech: prompt-based</span>
+<span class="badge badge-exec">exec: sequential</span>
+<span class="badge badge-function">function: dev-methodology</span>
+<span class="badge badge-ecosystem">ecosystem: agnostic</span>
+<span class="badge badge-scope">scope: project-level</span>
+<span class="badge badge-integration">integration: drop-in</span>
+<span class="badge badge-user">user: solo-dev</span>
+<span class="badge badge-complexity">complexity: low</span>
+<span class="badge badge-maturity">maturity: stable</span>
+<span class="badge badge-community">community: growing</span>
+<span class="badge badge-maintenance">maintenance: active</span>
+</div>
 
-| Metric | Score | Rating |
-|--------|-------|--------|
-| SOLID Principles | 4.2/5.0 | ⭐⭐⭐⭐☆ |
-| Production Ready | 72/100 | 🟡 Beta |
+## Scores Summary
 
+<div class="scores-grid">
+<table>
+<thead>
+<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Overall</strong></td>
+<td>4.2/5.0 ⭐⭐⭐⭐☆</td>
+<td><strong>Overall</strong></td>
+<td>72/100 🟡</td>
+</tr>
+<tr>
+<td>S - Single Responsibility</td>
+<td>0.0/5.0</td>
+<td>Reliability</td>
+<td>0</td>
+</tr>
+<tr>
+<td>O - Open/Closed</td>
+<td>0.0/5.0</td>
+<td>Observability</td>
+<td>0</td>
+</tr>
+<tr>
+<td>L - Liskov Substitution</td>
+<td>0.0/5.0</td>
+<td>Security</td>
+<td>0</td>
+</tr>
+<tr>
+<td>I - Interface Segregation</td>
+<td>0.0/5.0</td>
+<td>Performance</td>
+<td>0</td>
+</tr>
+<tr>
+<td>D - Dependency Inversion</td>
+<td>0.0/5.0</td>
+<td>Maintainability</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-## Overview
+## Key Innovations
 
-*No description available.*
+<ul class="compact-list">
+<li>Behavioral constraint protocol (5 phases)</li>
+<li>Permission-based enforcement per mode</li>
+<li>100% fidelity execution requirement</li>
+<li>Branch-aware memory bank</li>
+<li>Multiple variants (Original, Sigma, Claude Code)</li>
+</ul>
 
+## Best For
 
+<ul class="compact-list">
+<li>Complex multi-step feature development</li>
+<li>Critical code refactoring in production</li>
+<li>High-liability projects (fintech, healthcare)</li>
+<li>Teams learning disciplined AI development</li>
+</ul>
 
+## Limitations
+
+<ul class="compact-list">
+<li>Not for quick prototypes (<2 weeks)</li>
+<li>Not for simple bug fixes (<20 lines)</li>
+<li>Overhead for exploratory coding</li>
+</ul>
+
+---
 
 ## Full Analysis
 
@@ -581,8 +659,12 @@ RIPER-5 represents a unique approach to AI-assisted development methodology by f
 
 ---
 
-## Navigation
+<footer class="generation-meta">
+<small>
+Generated: 2025-11-30 23:40 UTC |
+Template: framework-page.md.j2 v2.0 |
+<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/riper-5">Source Data</a>
+</small>
+</footer>
 
-- [← Back to All Frameworks](index.md)
-- [Comparison with similar frameworks](../comparisons/methodology.md)
-- [Full Synthesis](../synthesis.md)
+<footer class="signature">∵ RCR Regis ∴</footer>

@@ -10,35 +10,10 @@ title: Super-Hero Framework Vision
 
 Take the best patterns from each category:
 
-### From Agentic (1 frameworks)
-
-- **Architecture Leader:** MoAI-ADK (Agentic Development Kit)
-- **Production Leader:** MoAI-ADK (Agentic Development Kit)
-
-### From Domain-Specific (2 frameworks)
-
-- **Architecture Leader:** ClaudeKit
-- **Production Leader:** ClaudeKit
-
-### From Mcp (1 frameworks)
-
-- **Architecture Leader:** Claude Task Master
-- **Production Leader:** Claude Task Master
-
-### From Methodology (9 frameworks)
+### From Uncategorized (19 frameworks)
 
 - **Architecture Leader:** BMAD Method (Build More, Architect Dreams)
 - **Production Leader:** BMAD Method (Build More, Architect Dreams)
-
-### From Orchestrator (5 frameworks)
-
-- **Architecture Leader:** systemprompt-orchestrator
-- **Production Leader:** wshobson/agents
-
-### From Pm (1 frameworks)
-
-- **Architecture Leader:** NioPD (Nio Product Director)
-- **Production Leader:** NioPD (Nio Product Director)
 
 ## Key Innovations to Combine
 

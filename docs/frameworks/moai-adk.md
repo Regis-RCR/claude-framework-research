@@ -6,35 +6,109 @@ parent: Frameworks
 
 # MoAI-ADK (Agentic Development Kit)
 
-∵ RCR Regis ∴
+<div class="framework-meta">
+<strong>Version:</strong> 0.30.2 |
+<strong>Repository:</strong> <a href="https://github.com/modu-ai/moai-adk">GitHub</a> |
+<strong>License:</strong> MIT
+</div>
 
-**Category:** agentic
-**Version:** 0.30.2
-**Status:** Analyzed
+## Classification
 
-## Scores
+<div class="facets">
+<span class="badge badge-tech">tech: sdk</span>
+<span class="badge badge-exec">exec: multi-agent</span>
+<span class="badge badge-function">function: orchestration</span>
+<span class="badge badge-ecosystem">ecosystem: python</span>
+<span class="badge badge-scope">scope: project-level</span>
+<span class="badge badge-integration">integration: code-integration</span>
+<span class="badge badge-user">user: team, enterprise</span>
+<span class="badge badge-complexity">complexity: high</span>
+<span class="badge badge-maturity">maturity: beta</span>
+<span class="badge badge-community">community: established</span>
+<span class="badge badge-maintenance">maintenance: intensive</span>
+</div>
 
-| Metric | Score | Rating |
-|--------|-------|--------|
-| SOLID Principles | 3.8/5.0 | ⭐⭐⭐☆☆ |
-| Production Ready | 79/100 | 🟡 Beta |
+## Scores Summary
 
-### SOLID Breakdown
+<div class="scores-grid">
+<table>
+<thead>
+<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Overall</strong></td>
+<td>3.8/5.0 ⭐⭐⭐☆☆</td>
+<td><strong>Overall</strong></td>
+<td>79/100 🟡</td>
+</tr>
+<tr>
+<td>S - Single Responsibility</td>
+<td>4.0/5.0</td>
+<td>Reliability</td>
+<td>80</td>
+</tr>
+<tr>
+<td>O - Open/Closed</td>
+<td>4.0/5.0</td>
+<td>Observability</td>
+<td>85</td>
+</tr>
+<tr>
+<td>L - Liskov Substitution</td>
+<td>3.5/5.0</td>
+<td>Security</td>
+<td>90</td>
+</tr>
+<tr>
+<td>I - Interface Segregation</td>
+<td>4.0/5.0</td>
+<td>Performance</td>
+<td>75</td>
+</tr>
+<tr>
+<td>D - Dependency Inversion</td>
+<td>3.5/5.0</td>
+<td>Maintainability</td>
+<td>65</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-| Principle | Score | Notes |
-|-----------|-------|-------|
-| S - Single Responsibility | N/A | - |
-| O - Open/Closed | N/A | - |
-| L - Liskov Substitution | N/A | - |
-| I - Interface Segregation | N/A | - |
-| D - Dependency Inversion | N/A | - |
+## Key Innovations
 
-## Overview
+<ul class="compact-list">
+<li>SPEC-First with EARS format for structured requirements</li>
+<li>TRUST 5 quality principles (Testable, Readable, Unified, Secured, Trackable)</li>
+<li>32-agent specialization system with domain experts</li>
+<li>Hybrid Personal-Pro Git workflow (auto-adapts to team size)</li>
+<li>Agent Context Firewall pattern (80-85% token reduction)</li>
+<li>MCP Integration Suite (Context7, Playwright, Figma)</li>
+</ul>
 
-*No description available.*
+## Best For
 
+<ul class="compact-list">
+<li>Enterprise Python development with TDD compliance</li>
+<li>Projects requiring full requirement traceability</li>
+<li>Teams enforcing 85%+ test coverage</li>
+<li>Documentation automation workflows</li>
+<li>Multi-agent orchestrated development</li>
+</ul>
 
+## Limitations
 
+<ul class="compact-list">
+<li>Steep learning curve (3-5 day ramp-up, 85K+ words docs)</li>
+<li>Python-only focus (limited non-Python support)</li>
+<li>Claude Code CLI dependency (vendor lock-in)</li>
+<li>TDD overhead slows prototyping (2-3x slower)</li>
+<li>Bus factor risk (2 contributors, 99% single developer)</li>
+<li>Token constraints for large codebases (200K limit)</li>
+</ul>
+
+---
 
 ## Full Analysis
 
@@ -549,8 +623,12 @@ Firebase, Supabase, Vercel, Railway, Convex, Cloudflare, Auth0, Clerk, Neon
 
 ---
 
-## Navigation
+<footer class="generation-meta">
+<small>
+Generated: 2025-11-30 23:40 UTC |
+Template: framework-page.md.j2 v2.0 |
+<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/moai-adk">Source Data</a>
+</small>
+</footer>
 
-- [← Back to All Frameworks](index.md)
-- [Comparison with similar frameworks](../comparisons/agentic.md)
-- [Full Synthesis](../synthesis.md)
+<footer class="signature">∵ RCR Regis ∴</footer>

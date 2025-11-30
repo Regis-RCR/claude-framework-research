@@ -6,26 +6,106 @@ parent: Frameworks
 
 # Simone
 
-∵ RCR Regis ∴
+<div class="framework-meta">
+<strong>Version:</strong> 0.4.0-mcp |
+<strong>Repository:</strong> <a href="https://github.com/Helmi/claude-simone">GitHub</a> |
+<strong>License:</strong> MIT
+</div>
 
-**Category:** methodology
-**Version:** 0.4.0-mcp
-**Status:** Analyzed
+## Classification
 
-## Scores
+<div class="facets">
+<span class="badge badge-tech">tech: mcp-native, prompt-based</span>
+<span class="badge badge-exec">exec: single-agent</span>
+<span class="badge badge-function">function: context-management</span>
+<span class="badge badge-ecosystem">ecosystem: agnostic</span>
+<span class="badge badge-scope">scope: project-level</span>
+<span class="badge badge-integration">integration: config-required</span>
+<span class="badge badge-user">user: solo-dev</span>
+<span class="badge badge-complexity">complexity: moderate</span>
+<span class="badge badge-maturity">maturity: beta</span>
+<span class="badge badge-community">community: growing</span>
+<span class="badge badge-maintenance">maintenance: active</span>
+</div>
 
-| Metric | Score | Rating |
-|--------|-------|--------|
-| SOLID Principles | 3.6/5.0 | ⭐⭐⭐☆☆ |
-| Production Ready | 63/100 | 🟡 Beta |
+## Scores Summary
 
+<div class="scores-grid">
+<table>
+<thead>
+<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Overall</strong></td>
+<td>3.6/5.0 ⭐⭐⭐☆☆</td>
+<td><strong>Overall</strong></td>
+<td>63/100 🟡</td>
+</tr>
+<tr>
+<td>S - Single Responsibility</td>
+<td>0.0/5.0</td>
+<td>Reliability</td>
+<td>0</td>
+</tr>
+<tr>
+<td>O - Open/Closed</td>
+<td>0.0/5.0</td>
+<td>Observability</td>
+<td>0</td>
+</tr>
+<tr>
+<td>L - Liskov Substitution</td>
+<td>0.0/5.0</td>
+<td>Security</td>
+<td>0</td>
+</tr>
+<tr>
+<td>I - Interface Segregation</td>
+<td>0.0/5.0</td>
+<td>Performance</td>
+<td>0</td>
+</tr>
+<tr>
+<td>D - Dependency Inversion</td>
+<td>0.0/5.0</td>
+<td>Maintainability</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-## Overview
+## Key Innovations
 
-*No description available.*
+<ul class="compact-list">
+<li>Context decay solution (fresh start per task)</li>
+<li>Hierarchical task structure (Milestones → Sprints → Tasks)</li>
+<li>Dual implementation (Legacy v0.3.5 + MCP v0.4.0)</li>
+<li>GitHub-native workflow (Issues, Milestones, Projects)</li>
+<li>Handlebars templates for customizable prompts</li>
+<li>Self-dogfooding (manages itself)</li>
+</ul>
 
+## Best For
 
+<ul class="compact-list">
+<li>Long-term AI-assisted projects (multi-month)</li>
+<li>Large codebases (50k+ LOC)</li>
+<li>Team-based GitHub workflows</li>
+<li>Projects requiring architectural documentation</li>
+</ul>
 
+## Limitations
+
+<ul class="compact-list">
+<li>Not for quick prototypes (<2 weeks)</li>
+<li>Not for small codebases (<1k LOC)</li>
+<li>Requires GitHub</li>
+<li>Learning curve for hierarchical structure</li>
+</ul>
+
+---
 
 ## Full Analysis
 
@@ -298,7 +378,6 @@ Milestone: "MVP Launch" (deadline: Q1)
 
 Handlebars templates inject relevant context:
 
-{% raw %}
 ```handlebars
 # Task: {{task.title}}
 
@@ -314,7 +393,6 @@ Handlebars templates inject relevant context:
 ## Your Assignment
 {{task.description}}
 ```
-{% endraw %}
 
 ### Fresh Start Pattern
 
@@ -624,8 +702,12 @@ Simone represents a thoughtful approach to the context decay problem in AI-assis
 
 ---
 
-## Navigation
+<footer class="generation-meta">
+<small>
+Generated: 2025-11-30 23:40 UTC |
+Template: framework-page.md.j2 v2.0 |
+<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/simone">Source Data</a>
+</small>
+</footer>
 
-- [← Back to All Frameworks](index.md)
-- [Comparison with similar frameworks](../comparisons/methodology.md)
-- [Full Synthesis](../synthesis.md)
+<footer class="signature">∵ RCR Regis ∴</footer>

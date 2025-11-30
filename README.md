@@ -7,7 +7,7 @@ A comprehensive collection of Claude Code framework analyses.
 ## Overview
 
 - **19** frameworks analyzed
-- **6** categories
+- **1** categories
 - **4.00** average SOLID score
 
 ## Quick Start
@@ -21,20 +21,15 @@ Browse the documentation:
 
 ## Categories
 
-- **Agentic**: 1 frameworks
-- **Domain-Specific**: 2 frameworks
-- **Mcp**: 1 frameworks
-- **Methodology**: 9 frameworks
-- **Orchestrator**: 5 frameworks
-- **Pm**: 1 frameworks
+- **Uncategorized**: 19 frameworks
 
 ## Recent Additions
 
-- Simone (methodology)
-- SuperClaude (methodology)
-- systemprompt-orchestrator (orchestrator)
-- taskmaster-mcp (methodology)
-- wshobson/agents (orchestrator)
+- Simone ()
+- SuperClaude ()
+- systemprompt-orchestrator ()
+- taskmaster-mcp ()
+- wshobson/agents ()
 
 ---
 

@@ -6,26 +6,104 @@ parent: Frameworks
 
 # Claude Squad
 
-∵ RCR Regis ∴
+<div class="framework-meta">
+<strong>Version:</strong> 1.0.13 |
+<strong>Repository:</strong> <a href="https://github.com/smtg-ai/claude-squad">GitHub</a> |
+<strong>License:</strong> AGPL-3.0
+</div>
 
-**Category:** orchestrator
-**Version:** 1.0.13
-**Status:** Analyzed
+## Classification
 
-## Scores
+<div class="facets">
+<span class="badge badge-tech">tech: cli</span>
+<span class="badge badge-exec">exec: multi-agent, parallel</span>
+<span class="badge badge-function">function: orchestration</span>
+<span class="badge badge-ecosystem">ecosystem: agnostic</span>
+<span class="badge badge-scope">scope: session-level</span>
+<span class="badge badge-integration">integration: full-setup</span>
+<span class="badge badge-user">user: solo-dev</span>
+<span class="badge badge-complexity">complexity: high</span>
+<span class="badge badge-maturity">maturity: beta</span>
+<span class="badge badge-community">community: established</span>
+<span class="badge badge-maintenance">maintenance: active</span>
+</div>
 
-| Metric | Score | Rating |
-|--------|-------|--------|
-| SOLID Principles | 4.0/5.0 | ⭐⭐⭐⭐☆ |
-| Production Ready | 68/100 | 🟡 Beta |
+## Scores Summary
 
+<div class="scores-grid">
+<table>
+<thead>
+<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Overall</strong></td>
+<td>4.0/5.0 ⭐⭐⭐⭐☆</td>
+<td><strong>Overall</strong></td>
+<td>68/100 🟡</td>
+</tr>
+<tr>
+<td>S - Single Responsibility</td>
+<td>0.0/5.0</td>
+<td>Reliability</td>
+<td>0</td>
+</tr>
+<tr>
+<td>O - Open/Closed</td>
+<td>0.0/5.0</td>
+<td>Observability</td>
+<td>0</td>
+</tr>
+<tr>
+<td>L - Liskov Substitution</td>
+<td>0.0/5.0</td>
+<td>Security</td>
+<td>0</td>
+</tr>
+<tr>
+<td>I - Interface Segregation</td>
+<td>0.0/5.0</td>
+<td>Performance</td>
+<td>0</td>
+</tr>
+<tr>
+<td>D - Dependency Inversion</td>
+<td>0.0/5.0</td>
+<td>Maintainability</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-## Overview
+## Key Innovations
 
-*No description available.*
+<ul class="compact-list">
+<li>Git worktree-based parallel isolation</li>
+<li>Terminal-native tmux orchestration</li>
+<li>Agent-agnostic architecture</li>
+<li>Zero-configuration multi-agent</li>
+<li>4-12x productivity gains for parallelizable work</li>
+</ul>
 
+## Best For
 
+<ul class="compact-list">
+<li>Large-scale refactoring projects</li>
+<li>Parallel feature development</li>
+<li>Bug fixing sprints</li>
+<li>Code modernization campaigns</li>
+</ul>
 
+## Limitations
+
+<ul class="compact-list">
+<li>Windows requires WSL (tmux dependency)</li>
+<li>GitHub dependency (gh CLI)</li>
+<li>Not for simple sequential tasks</li>
+</ul>
+
+---
 
 ## Full Analysis
 
@@ -470,8 +548,12 @@ Recommended limits:
 
 ---
 
-## Navigation
+<footer class="generation-meta">
+<small>
+Generated: 2025-11-30 23:40 UTC |
+Template: framework-page.md.j2 v2.0 |
+<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/claude-squad">Source Data</a>
+</small>
+</footer>
 
-- [← Back to All Frameworks](index.md)
-- [Comparison with similar frameworks](../comparisons/orchestrator.md)
-- [Full Synthesis](../synthesis.md)
+<footer class="signature">∵ RCR Regis ∴</footer>
