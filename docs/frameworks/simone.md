@@ -298,6 +298,7 @@ Milestone: "MVP Launch" (deadline: Q1)
 
 Handlebars templates inject relevant context:
 
+{% raw %}
 ```handlebars
 # Task: {{task.title}}
 
@@ -313,6 +314,7 @@ Handlebars templates inject relevant context:
 ## Your Assignment
 {{task.description}}
 ```
+{% endraw %}
 
 ### Fresh Start Pattern
 
