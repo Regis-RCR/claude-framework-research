@@ -1,104 +1,588 @@
 ---
-layout: default
 title: RIPER-5
-permalink: /frameworks/riper-5/
+category: methodology
+layout: framework
 ---
 
 # RIPER-5
 
-**Behavioral Constraint Protocol** — Proof that simple works.
+∵ RCR Regis ∴
 
-## Quick Stats
+**Category:** methodology
+**Version:** 2025.11
+**Status:** Analyzed
 
-| Metric | Value |
-|--------|-------|
+## Scores
+
+| Metric | Score | Rating |
+|--------|-------|--------|
+| SOLID Principles | 4.2/5.0 | ⭐⭐⭐⭐☆ |
+| Production Ready | 72/100 | 🟡 Beta |
+
+
+## Overview
+
+*No description available.*
+
+
+
+
+## Full Analysis
+
+# RIPER-5 Framework Analysis
+
+> **Analysis Metadata**
+> - Date: 2025-11-28
+> - Analyst: Claude (via research-framework-analyzer skill)
+> - Skill Invocation: CONFIRMED via Skill("rcr-toolkit:research-framework-analyzer")
+> - Template Version: 1.1
+> - Category: methodology
+
+## Research Metadata
+
+| Field | Value |
+|-------|-------|
+| **Framework** | RIPER-5 |
+| **Version** | Multiple implementations |
+| **Repository** | [NeekChaw/RIPER-5](https://github.com/NeekChaw/RIPER-5) (Community) |
+| **Claude Code Repo** | [tony/claude-code-riper-5](https://github.com/tony/claude-code-riper-5) |
 | **Category** | Methodology |
-| **Version** | community |
+| **Stars** | 1,900+ (community), 39 (claude-code) |
+| **Forks** | 276 |
+| **License** | MIT |
+| **Analysis Date** | November 28, 2025 |
+| **Template Version** | 1.1 |
 | **SOLID Score** | 4.2/5.0 |
 | **Production Score** | 72/100 |
 | **Complexity** | LIGHTWEIGHT |
-| **Stars** | 1,900+ |
-| **Repository** | [NeekChaw/RIPER-5](https://github.com/NeekChaw/RIPER-5) |
-
-## The Surprising One
-
-RIPER-5 scores SOLID 4.2—matching Task Master MCP and Claude Code Dev Kit. Simpler than frameworks with 10x the complexity, yet achieving the same architecture quality.
-
-The twist? It's the simplest framework we analyzed. Five phases. No agents. No tooling. Copy-paste to use.
-
-Let that sink in.
-
-## How It Works
-
-Five mandatory phases. That's it.
-
-```
-R → I → P → E → R
-Research → Innovate → Plan → Execute → Review
-```
-
-| Phase | What Happens | Hard Rule |
-|-------|--------------|-----------|
-| **Research** | Understand the problem | Questions only. No solutions. |
-| **Innovate** | Generate possibilities | Multiple options required. |
-| **Plan** | Design the solution | Explicit scope boundaries. |
-| **Execute** | Build it | Only planned changes. |
-| **Review** | Check the work | Compare to plan. |
-
-The magic is in the constraints. You can't skip to Execute before Research is done. The state machine enforces discipline.
-
-## Why It Works
-
-RIPER-5 targets the specific ways AI assistants fail:
-- Premature coding (fixed by mandatory Research phase)
-- Scope drift (fixed by explicit Plan boundaries)
-- Uncommanded modifications (fixed by Execute constraints)
-
-Simple rules, precisely applied.
-
-## Who Should Use This
-
-**Made for:**
-- Individual developers wanting discipline immediately
-- Projects where tooling overhead must approach zero
-- Teams new to AI-assisted development
-- Anyone who can copy-paste
-
-**Not quite right for:**
-- Complex multi-agent orchestration
-- Comprehensive artifact generation
-- Enterprise governance requirements
-- Long-term context management
-
-## SOLID Analysis
-
-| Principle | Score | Why It Scores High |
-|-----------|-------|-------------------|
-| Single Responsibility | 4.5/5 | Each phase does one thing |
-| Open-Closed | 4.0/5 | Phase definitions are extensible |
-| Liskov Substitution | 4.0/5 | Phases are self-contained |
-| Interface Segregation | 4.5/5 | Minimal, focused interfaces |
-| Dependency Inversion | 4.0/5 | Zero external dependencies |
-
-## Production Readiness
-
-- **Reliability:** 75/100 — Community-maintained, stable
-- **Observability:** 65/100 — Simple phase tracking
-- **Security:** 75/100 — Nothing external to attack
-- **Performance:** 80/100 — Zero overhead
-- **Maintainability:** 70/100 — Simple enough for anyone
-
-## The Real Insight
-
-RIPER-5 proves something important: complexity is not a proxy for quality. A focused design with clear constraints can match or exceed frameworks with 19 agents and 50+ workflows.
-
-Sometimes the best tool is the one you'll actually use.
-
-## Combinations
-
-- **Works with:** Any orchestrator (embed in worker agents)
-- **Similar philosophy:** [SuperClaude](/claude-framework-research/frameworks/superclaude/) (behavioral focus, more features)
 
 ---
 
-[← All Frameworks](/claude-framework-research/frameworks/) | [View Full Analysis](https://github.com/Regis-RCR/claude-framework-research/blob/main/research-v2/analysis/riper-5.md)
+## 1. Overview & Context
+
+RIPER-5 is a behavioral constraint protocol designed to control AI assistant behavior during software development through five sequential phases: **R**esearch, **I**nnovate, **P**lan, **E**xecute, and **R**eview. Unlike project management frameworks, RIPER-5 focuses on constraining AI behavior to prevent unauthorized modifications and premature implementations.
+
+### Core Innovation
+
+The framework's fundamental insight is that AI assistants tend to be "overeager" and often implement changes without explicit request. RIPER-5 addresses this through **process discipline via technical architecture** - using explicit mode declarations, permission matrices, and mandatory transition rules.
+
+### Key Differentiators
+
+1. **Behavioral Constraint Focus**: Controls what AI can and cannot do per phase
+2. **Permission-Based Enforcement**: Each mode has explicit read/write/execute permissions
+3. **Zero Tolerance for Deviation**: "100% fidelity" execution requirement
+4. **Branch-Aware Memory Bank**: Context persistence by git branch
+5. **Multiple Variants**: Original, Sigma (compact), Claude Code adaptations
+
+### Target Use Cases
+
+**Optimal For:**
+- Complex multi-step feature development
+- Critical code refactoring in production systems
+- High-liability projects (fintech, healthcare)
+- Teams learning disciplined AI-assisted development
+
+**Not Recommended For:**
+- Quick prototypes (<2 weeks)
+- Simple bug fixes (<20 lines)
+- Exploratory/experimental coding
+- Rapid iteration environments
+
+**Sources:** GitHub repositories, Cursor Community Forum
+
+---
+
+## 2. Architecture & Design
+
+### 2.1 Component Architecture
+
+RIPER-5 operates as a behavioral protocol rather than software:
+
+```
+RIPER-5/
+├── Phase Definitions/          # Five core phases
+│   ├── RESEARCH mode           # Read-only investigation
+│   ├── INNOVATE mode           # Solution brainstorming
+│   ├── PLAN mode               # Detailed planning
+│   ├── EXECUTE mode            # Implementation
+│   └── REVIEW mode             # Verification
+├── Permission Matrix/          # Phase-specific capabilities
+├── Memory Bank/                # Context persistence
+│   ├── main/
+│   │   ├── plans/
+│   │   ├── reviews/
+│   │   └── sessions/
+│   └── [feature-branch]/
+└── Transition Rules/           # Phase progression logic
+```
+
+### 2.2 Data Flow
+
+```
+User Request → Phase Detection → Permission Check → Action Execution
+     │
+     ▼
+Memory Bank ← Session Logging → Branch-Specific Storage
+     │
+     ▼
+Next Phase Transition (explicit user command only)
+```
+
+### 2.3 Integration Points
+
+**Phase Permissions:**
+
+| Phase | Read | Write | Execute | Key Actions |
+|-------|------|-------|---------|-------------|
+| RESEARCH | ✅ | ❌ | ❌ | Analyze, investigate, understand |
+| INNOVATE | ✅ | ❌ | ❌ | Brainstorm, suggest, explore |
+| PLAN | ✅ | ✅ Plans | ❌ | Detail steps, document approach |
+| EXECUTE | ✅ | ✅ Code | ✅ | Implement exactly as planned |
+| REVIEW | ✅ | ❌ | ❌ | Verify, test, validate |
+
+---
+
+## 3. Development Cycle Integration
+
+### 3.1 Planning Phase
+
+**Phases:** RESEARCH → INNOVATE → PLAN
+
+- RESEARCH: Deep codebase analysis without modification
+- INNOVATE: Solution exploration and alternatives
+- PLAN: Detailed implementation specifications
+
+**Automation:** Mode transitions require explicit user commands.
+
+### 3.2 Execution Phase
+
+**Phase:** EXECUTE
+
+- Only phase with write and execute permissions
+- "100% fidelity" requirement - implement exactly as planned
+- No deviations, improvements, or refactoring allowed
+
+### 3.3 Review Phase
+
+**Phase:** REVIEW
+
+- Read-only verification
+- Compare implementation against plan
+- Report discrepancies without fixing
+
+---
+
+## 4. SOLID Principles Adherence
+
+### 4.1 Single Responsibility Principle
+
+**Score: 4.5/5**
+
+Each phase has one clear responsibility:
+- RESEARCH: Understand only
+- INNOVATE: Suggest only
+- PLAN: Document only
+- EXECUTE: Implement only
+- REVIEW: Verify only
+
+### 4.2 Open-Closed Principle
+
+**Score: 4.5/5**
+
+- Protocol is closed for modification (core phases fixed)
+- Open for extension (variants like Sigma, Claude Code adaptations)
+- Memory Bank system extensible
+
+### 4.3 Liskov Substitution Principle
+
+**Score: 4.0/5**
+
+- Phase implementations substitutable within constraints
+- Sigma variant maintains behavioral compatibility
+- Some variants break strict substitution
+
+### 4.4 Interface Segregation Principle
+
+**Score: 4.0/5**
+
+- Minimal interface per phase (single permission set)
+- No bloated capabilities
+- Clean phase separation
+
+### 4.5 Dependency Inversion Principle
+
+**Score: 4.0/5**
+
+- Depends on abstractions (phase definitions)
+- Memory Bank abstraction layer
+- Implementation-agnostic protocol
+
+**Overall SOLID Score:** 4.2/5.0
+
+**Justification:** RIPER-5 demonstrates excellent adherence to SOLID principles through its clean phase separation and permission-based architecture. Each phase has a single, well-defined responsibility with explicit boundaries. The protocol's simplicity naturally enforces good design principles. Minor weaknesses emerge in variant compatibility (LSP) and some concrete dependencies in Memory Bank implementation.
+
+---
+
+## 5. Production Readiness Assessment
+
+### 5.1 Reliability
+
+**Score: 65/100**
+
+- Protocol itself is simple and reliable
+- No runtime dependencies
+- User compliance required for enforcement
+- Multiple variants create inconsistency
+
+### 5.2 Observability
+
+**Score: 60/100**
+
+- Memory Bank provides session logging
+- No structured telemetry
+- Manual review of phase transitions
+- Limited audit trail
+
+### 5.3 Security
+
+**Score: 75/100**
+
+- Permission-based access control
+- Read-only by default (most phases)
+- No external network dependencies
+- Relies on AI compliance
+
+### 5.4 Performance
+
+**Score: 85/100**
+
+- Zero runtime overhead (protocol-only)
+- Minimal token consumption
+- No external API calls
+- Lightweight Memory Bank
+
+### 5.5 Maintainability
+
+**Score: 75/100**
+
+- Simple protocol easy to maintain
+- Multiple variants create fragmentation
+- Community-driven updates
+- Clear documentation
+
+**Overall Production Score:** 72/100
+
+---
+
+## 6. Best Practices & Patterns
+
+### Permission Matrix Pattern
+
+RIPER-5's core innovation - explicit capability boundaries:
+
+```yaml
+RESEARCH:
+  allowed: [read_code, analyze, investigate, ask_questions]
+  forbidden: [modify_code, suggest_changes, execute]
+
+EXECUTE:
+  allowed: [read_code, write_code, run_commands]
+  forbidden: [deviate_from_plan, refactor, improve]
+```
+
+### Mode Transition Pattern
+
+Explicit user commands required:
+```
+User: "Switch to EXECUTE mode"
+AI: [Acknowledges mode change, lists new permissions]
+```
+
+### Memory Bank Pattern
+
+Branch-aware context persistence:
+```
+.claude/memory-bank/
+├── main/          # Main branch context
+├── feature-x/     # Feature branch context
+└── sessions/      # Session transcripts
+```
+
+---
+
+## 7. Limitations & Trade-offs
+
+### Critical Limitations
+
+**1. Enforcement Gap**
+- Protocol relies on AI voluntary compliance
+- No technical enforcement mechanism
+- User must monitor for violations
+
+**2. Rigidity vs Flexibility Trade-off**
+- "100% fidelity" prevents beneficial adaptations
+- No room for execution-time improvements
+- Plans must be perfect before execution
+
+**3. Variant Fragmentation**
+- Multiple incompatible implementations
+- No canonical version
+- Community confusion
+
+### Operational Limitations
+
+**4. Overhead for Simple Tasks**
+- Five-phase process overkill for bug fixes
+- No "quick mode" for trivial changes
+
+**5. No Multi-Agent Support**
+- Single-assistant protocol only
+- No orchestration capabilities
+
+---
+
+## 8. Community & Ecosystem
+
+### Community Metrics
+
+| Metric | Value |
+|--------|-------|
+| Community Stars | 1,900+ |
+| Claude Code Stars | 39 |
+| Forks | 276 |
+| Origin | Cursor Forum (March 2025) |
+| Creator | robotlovehuman (Anonymous) |
+
+### Sentiment Distribution
+
+- 80% Positive (fixes AI overreach)
+- 15% Neutral (useful but rigid)
+- 5% Negative (too restrictive)
+
+### Notable Variants
+
+1. **Original**: Full forum post specification
+2. **Sigma**: Ultra-compact version (fits context window)
+3. **Claude Code**: Tony Narlock's adaptation
+4. **CursorRIPER**: johnpeterman72's implementation
+
+---
+
+## 9. Innovation & Differentiation
+
+### Unique Contributions
+
+**1. Behavioral Constraint Architecture**
+First framework to focus on constraining AI behavior rather than organizing tasks.
+
+**2. Permission Matrix Concept**
+Explicit read/write/execute permissions per phase - novel approach to AI safety.
+
+**3. Zero-Deviation Philosophy**
+"100% fidelity" execution principle prevents scope creep.
+
+**4. Branch-Aware Context**
+Memory Bank organized by git branch - enables parallel feature development.
+
+### Competitive Position
+
+| Feature | RIPER-5 | Competitors |
+|---------|---------|-------------|
+| Behavioral Constraint | Primary focus | Secondary |
+| Overhead | Minimal | Often heavy |
+| Learning Curve | Low | Moderate |
+| Enforcement | Voluntary | Varies |
+
+---
+
+## 10. References & Sources
+
+1. **Cursor Forum Original Post**
+   - https://forum.cursor.com/t/i-created-an-amazing-mode-called-riper-5-mode-fixes-claude-3-7-drastically/65516
+
+2. **Community Repository**
+   - https://github.com/NeekChaw/RIPER-5
+
+3. **Claude Code Implementation**
+   - https://github.com/tony/claude-code-riper-5
+
+4. **CursorRIPER Variants**
+   - https://github.com/johnpeterman72/CursorRIPER
+
+5. **Forum Discussion Analysis**
+   - 8+ pages of community feedback
+
+---
+
+## 11. Error Handling Patterns
+
+### 11.1 Error Detection
+
+**Phase Violation Detection:**
+- Monitor for unauthorized modifications in read-only phases
+- Flag execution without prior planning
+- Detect scope deviations
+
+### 11.2 Error Recovery
+
+**Rollback Strategy:**
+```
+If execution deviates from plan:
+1. Stop execution immediately
+2. Return to REVIEW mode
+3. Document deviation
+4. Revise plan or rollback changes
+```
+
+### 11.3 Error Reporting
+
+**Memory Bank Logging:**
+- Session transcripts capture all actions
+- Phase transitions logged
+- Violations documented for review
+
+---
+
+## 12. Token Efficiency Analysis
+
+### 12.1 Token Optimization Strategies
+
+**Minimal Protocol Overhead:**
+- Core protocol fits in ~2k tokens
+- Sigma variant: ~500 tokens
+- No large context files required
+
+**Phase-Specific Loading:**
+- Only current phase permissions loaded
+- Memory Bank lazy-loaded as needed
+
+### 12.2 Context Management
+
+**Branch Isolation:**
+- Separate context per branch
+- No cross-branch pollution
+- Clean session boundaries
+
+**Comparison:**
+
+| Aspect | RIPER-5 | Heavy Frameworks |
+|--------|---------|------------------|
+| Protocol Size | ~2k tokens | 10-50k tokens |
+| Runtime Overhead | Zero | Significant |
+| Context Usage | Minimal | Often maxes out |
+
+---
+
+## X. Process Discipline Mechanisms
+
+### Phase Enforcement Architecture
+
+RIPER-5's discipline comes from explicit constraints:
+
+**Hard Boundaries:**
+- No code modifications in RESEARCH/INNOVATE/REVIEW
+- No deviations in EXECUTE
+- Explicit mode transitions only
+
+**Compliance Monitoring:**
+- User responsible for enforcement
+- AI self-reports phase status
+- Memory Bank audit trail
+
+### Discipline Patterns
+
+1. **Mode Declaration**: AI states current mode before actions
+2. **Permission Check**: AI verifies action is allowed
+3. **Transition Protocol**: Explicit user command required
+4. **Fidelity Requirement**: Exact plan execution
+
+---
+
+## Y. Learning Loop Architecture
+
+### Y.1 Knowledge Capture
+
+**Memory Bank System:**
+- Plans stored for reference
+- Reviews captured for patterns
+- Sessions logged for continuity
+
+### Y.2 Knowledge Application
+
+**Branch-Aware Context:**
+- Previous plans inform current work
+- Review insights guide improvements
+- Session history provides continuity
+
+### Y.3 Knowledge Evolution
+
+**Iterative Refinement:**
+- REVIEW phase identifies gaps
+- Next cycle incorporates learnings
+- Plans improve over iterations
+
+---
+
+## Z. Progressive Disclosure Design
+
+### Complexity Tiers
+
+**Tier 1: Essential (Sigma)**
+- 5 phases, minimal rules
+- ~500 tokens
+- Quick adoption
+
+**Tier 2: Standard**
+- Full permission matrix
+- Memory Bank integration
+- ~2k tokens
+
+**Tier 3: Advanced**
+- Multiple variants
+- Custom workflows
+- Branch strategies
+
+### User Journey
+
+1. **Beginner**: Use Sigma variant, learn phases
+2. **Intermediate**: Full protocol with Memory Bank
+3. **Advanced**: Custom adaptations, variant selection
+
+---
+
+## Conclusion
+
+RIPER-5 represents a unique approach to AI-assisted development methodology by focusing on behavioral constraints rather than task organization. Its simplicity (LIGHTWEIGHT complexity rating) makes it accessible while the strict phase discipline addresses real concerns about AI overreach.
+
+**Key Strengths:**
+- Minimal overhead (zero runtime dependencies)
+- Clear phase boundaries with explicit permissions
+- Effective at preventing unauthorized modifications
+- Multiple variants for different needs
+
+**Key Challenges:**
+- Relies on voluntary AI compliance
+- Rigid for simple tasks
+- Variant fragmentation creates confusion
+- No technical enforcement mechanism
+
+**Comparison to BMAD Method:**
+
+| Aspect | RIPER-5 | BMAD Method |
+|--------|---------|-------------|
+| Focus | Behavioral constraint | Full methodology |
+| Complexity | LIGHTWEIGHT | HEAVY |
+| Overhead | Minimal | Significant |
+| SOLID Score | 4.2/5.0 | 4.3/5.0 |
+| Production Score | 72/100 | 87/100 |
+
+**Bottom Line:** RIPER-5 excels for developers seeking lightweight behavioral discipline without heavy methodology overhead. Best for individual developers or small teams wanting to prevent AI overreach while maintaining agility.
+
+
+---
+
+## Navigation
+
+- [← Back to All Frameworks](index.md)
+- [Comparison with similar frameworks](../comparisons/methodology.md)
+- [Full Synthesis](../synthesis.md)

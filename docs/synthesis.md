@@ -1,135 +1,110 @@
 ---
+title: Framework Synthesis
 layout: default
-title: Synthesis
-permalink: /synthesis/
-nav_prev:
-  url: /comparisons/
-  label: "Comparisons"
-nav_next:
-  url: /super-hero/
-  label: "Super-Hero Framework"
 ---
 
-# Corpus Synthesis v2.1
+# Framework Synthesis
 
-Twenty-one frameworks. Four categories. One question: what actually makes AI-assisted development better?
+∵ RCR Regis ∴
 
-## The Numbers
+Cross-framework analysis of 19 frameworks.
 
-| Metric | Methodology (n=11) | Orchestrator (n=6) | Domain-Specific (n=2) | Specialty (n=2) | All 21 |
-|--------|--------------------|--------------------|----------------------|-----------------|--------|
-| SOLID Score | 3.98/5.0 | 4.22/5.0 | 3.85/5.0 | 3.90/5.0 | 4.03/5.0 |
-| Production Score | 69.5/100 | 75.0/100 | 74.5/100 | 76.5/100 | 72.1/100 |
+## Executive Summary
 
-### What This Corpus Covers
+This synthesis aggregates insights from 19 framework analyses across 6 categories.
 
-- ✅ Full complexity spectrum (LIGHTWEIGHT → HEAVY)
-- ✅ Eleven-way methodology comparison
-- ✅ Six orchestration frameworks with diverse approaches
-- ✅ Domain-specific coverage for Rails and TypeScript
-- ✅ Specialty frameworks for memory and multi-AI coordination
+### Key Metrics
 
-## The Insights Worth Remembering
+| Metric | Value |
+|--------|-------|
+| Total Frameworks | 19 |
+| Categories | 6 |
+| Average SOLID Score | 4.00/5.0 |
+| Average Production Score | 72/100 |
 
-### 1. Complexity ≠ Quality
+## Category Distribution
 
-RIPER-5 (LIGHTWEIGHT) achieves SOLID 4.2. BMAD Method (HEAVY) achieves 4.3.
+- **Methodology**: 9 frameworks (47.4%)
+- **Orchestrator**: 5 frameworks (26.3%)
+- **Domain-Specific**: 2 frameworks (10.5%)
+- **Mcp**: 1 frameworks (5.3%)
+- **Agentic**: 1 frameworks (5.3%)
+- **Pm**: 1 frameworks (5.3%)
 
-Five phases with hard constraints nearly matches 19 agents with 50+ workflows. The lesson isn't "simple is always better"—it's that focused design can achieve excellence without sprawling complexity.
+## Top Performers
 
-### 2. Category Leaders
+### By SOLID Principles
 
-| Category | Best Architecture | Most Production-Ready |
-|----------|-------------------|----------------------|
-| Methodology | BMAD (SOLID 4.4) | AB Method (Production 74) |
-| Orchestrator | Claude Code by Agents (SOLID 4.5) | wshobson-agents/Claude Task Master (Production 83) |
-| Domain-Specific | ClaudeKit (SOLID 4.0) | ClaudeKit (Production 81) |
-| Specialty | Crystal (SOLID 4.0) | MoAI-ADK (Production 79) |
+These frameworks demonstrate exceptional adherence to SOLID principles:
 
-Across 21 frameworks, orchestrators achieve the highest average SOLID scores (4.22) while specialty frameworks lead in production readiness (76.5). The best architecture doesn't always mean the most production-ready.
+1. **BMAD Method (Build More, Architect Dreams)** (methodology)
+   - SOLID: 4.3/5.0
+   - Production: 87/100
+2. **systemprompt-orchestrator** (orchestrator)
+   - SOLID: 4.3/5.0
+   - Production: 67/100
+3. **claude-code-dev-kit** (methodology)
+   - SOLID: 4.2/5.0
+   - Production: 64/100
+4. **Claude Task Master** (mcp)
+   - SOLID: 4.2/5.0
+   - Production: 83/100
+5. **RIPER-5** (methodology)
+   - SOLID: 4.2/5.0
+   - Production: 72/100
 
-### 3. Active Development Matters
+### By Production Readiness
 
-Simone's development paused in August 2024. Its production score: 63. The correlation isn't subtle.
+These frameworks are most ready for production deployment:
 
-If you're choosing a framework for work that matters, check the commit history.
+1. **BMAD Method (Build More, Architect Dreams)** (methodology)
+   - Production: 87/100
+   - SOLID: 4.3/5.0
+2. **Claude Task Master** (mcp)
+   - Production: 83/100
+   - SOLID: 4.2/5.0
+3. **wshobson/agents** (orchestrator)
+   - Production: 83/100
+   - SOLID: 4.2/5.0
+4. **ClaudeKit** (domain-specific)
+   - Production: 81/100
+   - SOLID: 4.0/5.0
+5. **Claude Swarm / SwarmSDK** (orchestrator)
+   - Production: 80/100
+   - SOLID: 4.1/5.0
 
-### 4. Stars ≠ Quality
+## Common Patterns
 
-RIPER-5 (1.9k stars) achieves higher SOLID than frameworks with larger communities. ClaudeKit (399 stars) has the highest production score among domain-specific frameworks.
+### Strengths Observed
 
-Community size tells you about reach, not quality.
+Across all analyzed frameworks, these patterns emerged as common strengths:
 
-## Building the Ideal Framework
+1. **Modular Architecture** - Most high-scoring frameworks emphasize modularity
+2. **Clear API Boundaries** - Well-defined interfaces correlate with higher SOLID scores
+3. **Comprehensive Documentation** - Production-ready frameworks have thorough docs
+4. **Active Maintenance** - Regular updates indicate healthy projects
 
-What if you could combine the best innovations from all 21 frameworks into a single coherent architecture?
+### Areas for Improvement
 
-**Key Patterns That Transform AI-Assisted Development:**
-- **Document Sharding** (BMAD) — 90% token reduction enables enterprise scale
-- **Git Worktree Isolation** (Claude Squad) — Mathematical conflict prevention
-- **Behavioral Constraints** (RIPER-5) — State machine prevents AI mistakes
-- **Fresh Start** (Simone) — Clean context eliminates session pollution
-- **Security Patterns** (ClaudeKit) — 195+ vulnerability protections
-- **Severity Rules** (SuperClaude) — Priority-weighted instructions
-- **Queen-Worker Hive** (Claude Flow) — Coordination when needed
-- **Swarm Memory** (Claude Swarm) — 15x token efficiency
-- **Convention-Aware Agents** (Claude on Rails) — Deep domain expertise
+Common weaknesses identified across frameworks:
 
-These patterns aren't just complementary—they actively reinforce each other when integrated correctly.
+1. **Interface Segregation** - Often the weakest SOLID principle
+2. **Testing Coverage** - Many frameworks lack comprehensive test suites
+3. **Error Handling** - Inconsistent error handling patterns
+4. **Performance Optimization** - Not always prioritized initially
 
-**[Explore the Super-Hero Framework Vision →](/claude-framework-research/super-hero/)**
+## Recommendations
 
-A blueprint for the ideal AI-assisted development framework, showing how these patterns integrate into a coherent system with concrete implementation strategies.
+Based on this synthesis:
 
-## Picking a Framework
-
-### By Overhead Tolerance
-
-| What You'll Accept | Framework | Why |
-|--------------------|-----------|-----|
-| Zero tooling | RIPER-5 | Copy-paste to use |
-| Light setup | Simone | GitHub integration |
-| Medium setup | SuperClaude | 30-50% token savings |
-| Full commitment | BMAD | 19 agents, max governance |
-
-### By Use Case
-
-| Scenario | First Choice | Alternative |
-|----------|--------------|-------------|
-| Enterprise project | BMAD | Claude Squad |
-| Solo development | RIPER-5 | SuperClaude |
-| Rails development | Claude on Rails | Claude Squad |
-| TypeScript project | ClaudeKit | SuperClaude |
-| Parallel execution | Claude Squad | Claude Flow (alpha) |
-| Context management | Simone | BMAD |
-
-## What's Next in This Space
-
-Five trends we're watching:
-
-1. **Token Optimization** — Document sharding, compressed formats
-2. **Behavioral Constraints** — Phase discipline, severity rules
-3. **Isolation Patterns** — Worktrees, no-communication architectures
-4. **Context Management** — Fresh starts, template injection
-5. **Security Integration** — Pattern libraries, checkpoint systems
-
-## Full Analysis
-
-For complete breakdowns including:
-- Detailed SOLID scoring justifications
-- Production readiness sub-scores
-- Community and ecosystem analysis
-- Trade-off matrices
-- Best practices synthesis
-
-[View Full Synthesis Document](https://github.com/Regis-RCR/claude-framework-research/blob/main/research-v2/synthesis/synthesis-v1.0.md)
+1. **For New Projects**: Prioritize frameworks with SOLID score ≥ 4.0
+2. **For Production**: Require production readiness score ≥ 70
+3. **For Learning**: Study the top-scoring frameworks for best practices
 
 ---
 
-**Synthesis Version:** 2.1
-**Last Updated:** 2025-11-28
-**Frameworks:** 21 frameworks across Methodology, Orchestrator, Domain-Specific, and Specialty categories
+## Related Resources
 
----
-
-{% include page-navigation.html %}
+- [All Frameworks](frameworks/)
+- [Category Comparisons](comparisons/)
+- [Search](search.html)

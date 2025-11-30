@@ -1,71 +1,16 @@
 # GitHub Pages Configuration
-title: Claude Code Framework Research
-description: Evidence-based analysis of AI-assisted development frameworks
-baseurl: "/claude-framework-research"
-url: "https://regis-rcr.github.io"
+# ∵ RCR Regis ∴
+
+title: Framework Research Corpus
+description: Comprehensive analysis of Claude Code frameworks
+theme: jekyll-theme-minimal
 
 # Build settings
-theme: minima
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    default_lang: yaml
-
-# Theme customization
-minima:
-  date_format: "%b %-d, %Y"
-  skin: classic
-
-# Collections
-collections:
-  frameworks:
-    output: true
-    permalink: /frameworks/:name/
-
-# Navigation
-header_pages:
-  - index.md
-  - frameworks.md
-  - comparisons.md
-  - synthesis.md
-  - super-hero.md
-
-# Metadata
-author: "Regis RCR"
-
-# SEO and social
-twitter:
-  username: regis_rcr
-  card: summary
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-      author: "Regis RCR"
-  - scope:
-      path: "frameworks"
-    values:
-      layout: "default"
-      category: "framework"
-
-# Analytics (optional)
-google_analytics:
+highlighter: rouge
 
 # Exclude from processing
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
   - README.md
   - LICENSE
+  - "*.sh"

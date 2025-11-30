@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Frameworks - Research Corpus</title>
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #64748b;
+            --success: #22c55e;
+            --warning: #f59e0b;
+            --bg: #ffffff;
+            --text: #1e293b;
+            --border: #e2e8f0;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0f172a;
+                --text: #f1f5f9;
+                --border: #334155;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: var(--primary);
+            margin-bottom: 0.5em;
+        }
+
+        .subtitle {
+            color: var(--secondary);
+            margin-bottom: 2em;
+        }
+
+        .search-container {
+            position: relative;
+            margin-bottom: 2em;
+        }
+
+        #search {
+            width: 100%;
+            padding: 16px 20px;
+            font-size: 18px;
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            background: var(--bg);
+            color: var(--text);
+            transition: border-color 0.2s;
+        }
+
+        #search:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .filters {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 1em;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 8px 16px;
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            background: transparent;
+            color: var(--text);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        #results {
+            min-height: 200px;
+        }
+
+        .result {
+            padding: 20px;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            margin-bottom: 15px;
+            transition: box-shadow 0.2s;
+        }
+
+        .result:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .result h3 {
+            margin: 0 0 8px 0;
+        }
+
+        .result h3 a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .result h3 a:hover {
+            text-decoration: underline;
+        }
+
+        .result-meta {
+            display: flex;
+            gap: 20px;
+            color: var(--secondary);
+            font-size: 14px;
+        }
+
+        .score {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .score-bar {
+            width: 60px;
+            height: 6px;
+            background: var(--border);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .score-fill {
+            height: 100%;
+            background: var(--success);
+            border-radius: 3px;
+        }
+
+        .category-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            background: var(--border);
+            border-radius: 4px;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: var(--secondary);
+        }
+
+        .stats {
+            margin-bottom: 1em;
+            color: var(--secondary);
+            font-size: 14px;
+        }
+
+        footer {
+            margin-top: 3em;
+            padding-top: 2em;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--secondary);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 Search Frameworks</h1>
+    <p class="subtitle">∵ RCR Regis ∴ | 19 frameworks indexed</p>
+
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Search by name, category, or keywords..." autofocus>
+    </div>
+
+    <div class="filters">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="agentic">Agentic</button>
+        <button class="filter-btn" data-category="domain-specific">Domain-Specific</button>
+        <button class="filter-btn" data-category="mcp">Mcp</button>
+        <button class="filter-btn" data-category="methodology">Methodology</button>
+        <button class="filter-btn" data-category="orchestrator">Orchestrator</button>
+        <button class="filter-btn" data-category="pm">Pm</button>
+    </div>
+
+    <div class="stats" id="stats">Showing all 19 frameworks</div>
+
+    <div id="results">
+        <!-- Results will be inserted here -->
+    </div>
+
+    <footer>
+        <p>Research Framework Corpus | <a href="index.html">Home</a> | <a href="synthesis.html">Synthesis</a></p>
+    </footer>
+
+    <script>
+    // Framework data
+    const documents = [{"id": 0, "name": "Ab Method", "slug": "ab-method", "category": "methodology", "description": "", "keywords": "", "solid": 0, "production": 0}, {"id": 1, "name": "BMAD Method (Build More, Architect Dreams)", "slug": "bmad-method-(build-more,-architect-dreams)", "category": "methodology", "description": "", "keywords": "", "solid": {"overall": 4.3, "srp": 5.0, "ocp": 4.5, "lsp": 3.5, "isp": 4.5, "dip": 3.5}, "production": {"overall": 87, "reliability": 95, "observability": 70, "security": 75, "performance": 100, "maintainability": 100}}, {"id": 2, "name": "claude-code-dev-kit", "slug": "claude-code-dev-kit", "category": "methodology", "description": "", "keywords": "", "solid": {"overall": 4.2, "srp": 5, "ocp": 5, "lsp": 3, "isp": 5, "dip": 5}, "production": {"overall": 64, "reliability": 72, "observability": 45, "security": 68, "performance": 55, "maintainability": 78}}, {"id": 3, "name": "claude-code-heavy", "slug": "claude-code-heavy", "category": "methodology", "description": "", "keywords": "", "solid": {"overall": 3.8, "srp": 5, "ocp": 4, "lsp": 3, "isp": 4, "dip": 3}, "production": {"overall": 52, "reliability": 55, "observability": 35, "security": 60, "performance": 65, "maintainability": 45}}, {"id": 4, "name": "Claude Flow", "slug": "claude-flow", "category": "orchestrator", "description": "", "keywords": "", "solid": {"overall": 3.8}, "production": {"overall": 45}}, {"id": 5, "name": "Claude on Rails", "slug": "claude-on-rails", "category": "domain-specific", "description": "", "keywords": "", "solid": {"overall": 3.7}, "production": {"overall": 68}}, {"id": 6, "name": "Claude Squad", "slug": "claude-squad", "category": "orchestrator", "description": "", "keywords": "", "solid": {"overall": 4.0}, "production": {"overall": 68}}, {"id": 7, "name": "Claude Swarm / SwarmSDK", "slug": "claude-swarm-/-swarmsdk", "category": "orchestrator", "description": "", "keywords": "", "solid": {"overall": 4.1, "srp": 4.5, "ocp": 4.0, "lsp": 4.0, "isp": 4.0, "dip": 4.0}, "production": {"overall": 80, "reliability": 80, "observability": 75, "security": 82, "performance": 85, "maintainability": 80}}, {"id": 8, "name": "Claude Task Master", "slug": "claude-task-master", "category": "mcp", "description": "", "keywords": "", "solid": {"overall": 4.2, "srp": 4.5, "ocp": 4.0, "lsp": 4.0, "isp": 4.5, "dip": 4.0}, "production": {"overall": 83, "reliability": 85, "observability": 75, "security": 78, "performance": 90, "maintainability": 85}}, {"id": 9, "name": "ClaudeKit", "slug": "claudekit", "category": "domain-specific", "description": "", "keywords": "", "solid": {"overall": 4.0}, "production": {"overall": 81}}, {"id": 10, "name": "ContextKit", "slug": "contextkit", "category": "methodology", "description": "", "keywords": "", "solid": {"overall": 3.8, "srp": 4.0, "ocp": 4.0, "lsp": 3.5, "isp": 4.0, "dip": 3.5}, "production": {"overall": 75, "reliability": 75, "observability": 70, "security": 75, "performance": 80, "maintainability": 75}}, {"id": 11, "name": "MoAI-ADK (Agentic Development Kit)", "slug": "moai-adk-(agentic-development-kit)", "category": "agentic", "description": "", "keywords": "", "solid": {"overall": 3.8, "srp": 4.0, "ocp": 4.0, "lsp": 3.5, "isp": 4.0, "dip": 3.5}, "production": {"overall": 79, "reliability": 80, "observability": 85, "security": 90, "performance": 75, "maintainability": 65}}, {"id": 12, "name": "NioPD (Nio Product Director)", "slug": "niopd-(nio-product-director)", "category": "pm", "description": "", "keywords": "", "solid": {"overall": 3.9, "srp": 4.5, "ocp": 4.0, "lsp": 3.5, "isp": 4.0, "dip": 3.5}, "production": {"overall": 73, "reliability": 70, "observability": 75, "security": 75, "performance": 75, "maintainability": 70}}, {"id": 13, "name": "RIPER-5", "slug": "riper-5", "category": "methodology", "description": "", "keywords": "", "solid": {"overall": 4.2}, "production": {"overall": 72}}, {"id": 14, "name": "Simone", "slug": "simone", "category": "methodology", "description": "", "keywords": "", "solid": {"overall": 3.6}, "production": {"overall": 63}}, {"id": 15, "name": "SuperClaude", "slug": "superclaude", "category": "methodology", "description": "", "keywords": "", "solid": {"overall": 4.0}, "production": {"overall": 78}}, {"id": 16, "name": "systemprompt-orchestrator", "slug": "systemprompt-orchestrator", "category": "orchestrator", "description": "", "keywords": "", "solid": {"overall": 4.3, "srp": 5, "ocp": 5, "lsp": 5, "isp": 5, "dip": 5}, "production": {"overall": 67, "reliability": 65, "observability": 70, "security": 72, "performance": 62, "maintainability": 68}}, {"id": 17, "name": "taskmaster-mcp", "slug": "taskmaster-mcp", "category": "methodology", "description": "", "keywords": "", "solid": {"overall": 4.2, "srp": 5, "ocp": 5, "lsp": 4, "isp": 5, "dip": 4}, "production": {"overall": 74, "reliability": 78, "observability": 65, "security": 72, "performance": 75, "maintainability": 80}}, {"id": 18, "name": "wshobson/agents", "slug": "wshobson/agents", "category": "orchestrator", "description": "", "keywords": "", "solid": {"overall": 4.2, "srp": 4.5, "ocp": 4.0, "lsp": 4.0, "isp": 4.5, "dip": 4.0}, "production": {"overall": 83, "reliability": 85, "observability": 75, "security": 80, "performance": 90, "maintainability": 85}}];
+
+    // Build Lunr index
+    const idx = lunr(function() {
+        this.ref('id');
+        this.field('name', { boost: 10 });
+        this.field('category', { boost: 5 });
+        this.field('description', { boost: 3 });
+        this.field('keywords');
+
+        documents.forEach(doc => this.add(doc));
+    });
+
+    // DOM elements
+    const searchInput = document.getElementById('search');
+    const resultsDiv = document.getElementById('results');
+    const statsDiv = document.getElementById('stats');
+    const filterBtns = document.querySelectorAll('.filter-btn');
+
+    let currentCategory = 'all';
+
+    // Filter buttons
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            filterBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            currentCategory = this.dataset.category;
+            doSearch();
+        });
+    });
+
+    // Search function
+    function doSearch() {
+        const query = searchInput.value.trim();
+
+        let results;
+        if (query.length < 2) {
+            results = documents.map((doc, i) => ({ ref: i, score: 1 }));
+        } else {
+            results = idx.search(query + '*');
+        }
+
+        // Apply category filter
+        let filtered = results.map(r => documents[r.ref]);
+        if (currentCategory !== 'all') {
+            filtered = filtered.filter(doc => doc.category === currentCategory);
+        }
+
+        // Render results
+        renderResults(filtered);
+    }
+
+    function renderResults(results) {
+        resultsDiv.innerHTML = '';
+        statsDiv.textContent = `Showing ${results.length} framework${results.length !== 1 ? 's' : ''}`;
+
+        if (results.length === 0) {
+            resultsDiv.innerHTML = '<div class="no-results"><p>No frameworks found. Try a different search term.</p></div>';
+            return;
+        }
+
+        results.slice(0, 50).forEach(doc => {
+            const solidPercent = (doc.solid / 5) * 100;
+            const prodPercent = doc.production;
+
+            const div = document.createElement('div');
+            div.className = 'result';
+            div.innerHTML = `
+                <h3><a href="frameworks/${doc.slug}.html">${doc.name}</a></h3>
+                <div class="result-meta">
+                    <span class="category-badge">${doc.category}</span>
+                    <span class="score">
+                        SOLID: ${doc.solid}/5.0
+                        <span class="score-bar"><span class="score-fill" style="width: ${solidPercent}%"></span></span>
+                    </span>
+                    <span class="score">
+                        Prod: ${doc.production}/100
+                        <span class="score-bar"><span class="score-fill" style="width: ${prodPercent}%"></span></span>
+                    </span>
+                </div>
+            `;
+            resultsDiv.appendChild(div);
+        });
+    }
+
+    // Event listeners
+    searchInput.addEventListener('input', doSearch);
+
+    // Initial render
+    doSearch();
+    </script>
+</body>
+</html>
