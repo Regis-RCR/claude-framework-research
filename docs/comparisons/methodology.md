@@ -13,7 +13,7 @@ Comparing 9 frameworks in the **methodology** category.
 
 | Framework | Version | SOLID | Production | Best For |
 |-----------|---------|-------|------------|----------|
-| [BMAD Method (Build More, Architect Dreams)](../frameworks/bmad-method-(build-more,-architect-dreams).md) | 6.0.0-alpha.12 | 4.3/5.0 | 87/100 | - |
+| [BMAD Method (Build More, Architect Dreams)](../frameworks/bmad-method.md) | 6.0.0-alpha.12 | 4.3/5.0 | 87/100 | - |
 | [claude-code-dev-kit](../frameworks/claude-code-dev-kit.md) | 2.1.0 | 4.2/5.0 | 64/100 | - |
 | [RIPER-5](../frameworks/riper-5.md) | 2025.11 | 4.2/5.0 | 72/100 | - |
 | [taskmaster-mcp](../frameworks/taskmaster-mcp.md) | 0.15.0 | 4.2/5.0 | 74/100 | - |

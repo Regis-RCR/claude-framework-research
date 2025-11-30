@@ -15,7 +15,7 @@ Welcome to the comprehensive framework analysis repository.
 |--------|-------|
 | Total Frameworks | 19 |
 | Categories | 6 |
-| Average SOLID Score | 0.00/5.0 |
+| Average SOLID Score | 4.00/5.0 |
 
 ## Browse by Category
 
@@ -23,7 +23,7 @@ Welcome to the comprehensive framework analysis repository.
 
 1 frameworks in this category.
 
-- [MoAI-ADK (Agentic Development Kit)](frameworks/moai-adk-(agentic-development-kit).md) - SOLID: 3.8/5.0
+- [MoAI-ADK (Agentic Development Kit)](frameworks/moai-adk.md) - SOLID: 3.8/5.0
 
 ### Domain-Specific
 
@@ -43,7 +43,7 @@ Welcome to the comprehensive framework analysis repository.
 9 frameworks in this category.
 
 - [Ab Method](frameworks/ab-method.md) - SOLID: 3.9/5.0
-- [BMAD Method (Build More, Architect Dreams)](frameworks/bmad-method-(build-more,-architect-dreams).md) - SOLID: 4.3/5.0
+- [BMAD Method (Build More, Architect Dreams)](frameworks/bmad-method.md) - SOLID: 4.3/5.0
 - [claude-code-dev-kit](frameworks/claude-code-dev-kit.md) - SOLID: 4.2/5.0
 - [claude-code-heavy](frameworks/claude-code-heavy.md) - SOLID: 3.8/5.0
 - [ContextKit](frameworks/contextkit.md) - SOLID: 3.8/5.0
@@ -58,15 +58,15 @@ Welcome to the comprehensive framework analysis repository.
 
 - [Claude Flow](frameworks/claude-flow.md) - SOLID: 3.8/5.0
 - [Claude Squad](frameworks/claude-squad.md) - SOLID: 4.0/5.0
-- [Claude Swarm / SwarmSDK](frameworks/claude-swarm-/-swarmsdk.md) - SOLID: 4.1/5.0
+- [Claude Swarm / SwarmSDK](frameworks/claude-swarm-swarmsdk.md) - SOLID: 4.1/5.0
 - [systemprompt-orchestrator](frameworks/systemprompt-orchestrator.md) - SOLID: 4.3/5.0
-- [wshobson/agents](frameworks/wshobson/agents.md) - SOLID: 4.2/5.0
+- [wshobson/agents](frameworks/wshobson-agents.md) - SOLID: 4.2/5.0
 
 ### Pm
 
 1 frameworks in this category.
 
-- [NioPD (Nio Product Director)](frameworks/niopd-(nio-product-director).md) - SOLID: 3.9/5.0
+- [NioPD (Nio Product Director)](frameworks/niopd.md) - SOLID: 3.9/5.0
 
 
 ## Resources
@@ -77,4 +77,4 @@ Welcome to the comprehensive framework analysis repository.
 
 ---
 
-*Last updated: unknown*
+*Last updated: 2025-11-30*

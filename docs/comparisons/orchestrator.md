@@ -14,8 +14,8 @@ Comparing 5 frameworks in the **orchestrator** category.
 | Framework | Version | SOLID | Production | Best For |
 |-----------|---------|-------|------------|----------|
 | [systemprompt-orchestrator](../frameworks/systemprompt-orchestrator.md) | 0.01 | 4.3/5.0 | 67/100 | - |
-| [wshobson/agents](../frameworks/wshobson/agents.md) | 1.2.0 | 4.2/5.0 | 83/100 | - |
-| [Claude Swarm / SwarmSDK](../frameworks/claude-swarm-/-swarmsdk.md) | 2.5.1 | 4.1/5.0 | 80/100 | - |
+| [wshobson/agents](../frameworks/wshobson-agents.md) | 1.2.0 | 4.2/5.0 | 83/100 | - |
+| [Claude Swarm / SwarmSDK](../frameworks/claude-swarm-swarmsdk.md) | 2.5.1 | 4.1/5.0 | 80/100 | - |
 | [Claude Squad](../frameworks/claude-squad.md) | 1.0.13 | 4.0/5.0 | 68/100 | - |
 | [Claude Flow](../frameworks/claude-flow.md) | 2.7.4-alpha | 3.8/5.0 | 45/100 | - |
 
