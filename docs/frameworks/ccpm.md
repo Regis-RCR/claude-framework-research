@@ -114,12 +114,18 @@ parent: Frameworks
 
 # CCPM (Claude Code PM) Framework Analysis
 
-**Analysis Version:** 1.0.0
-**Framework Version:** 1.0.0 (no official releases)
+> **Analysis Metadata**
+> - Date: 2025-12-01
+> - Analyst: Claude (via framework-analyzer skill)
+> - Skill Invocation: CONFIRMED via Skill("rcr-research:framework-analyzer")
+> - Template Version: 1.1
+> - Category: methodology
+
+**Framework:** CCPM (Claude Code PM)
+**Version:** v1.0.0
 **Category:** methodology
-**Analysis Date:** 2025-11-28
-**Analyst:** Claude (via research-framework-analyzer skill)
-**Skill Invocation:** Confirmed
+**Repository:** https://github.com/Automaze/CCPM
+**License:** MIT
 
 ---
 
@@ -588,7 +594,7 @@ GitHub Issues as distributed database:
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-01 21:06 UTC |
+Generated: 2025-12-01 22:56 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/ccpm">Source Data</a>
 </small>

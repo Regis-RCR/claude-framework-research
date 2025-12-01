@@ -18,7 +18,7 @@ parent: Frameworks
 <span class="badge badge-tech">tech: sdk, cli</span>
 <span class="badge badge-exec">exec: multi-agent, parallel</span>
 <span class="badge badge-function">function: orchestration</span>
-<span class="badge badge-ecosystem">ecosystem: python</span>
+<span class="badge badge-ecosystem">ecosystem: ruby</span>
 <span class="badge badge-scope">scope: session-level</span>
 <span class="badge badge-integration">integration: full-setup</span>
 <span class="badge badge-user">user: solo-dev, team</span>
@@ -113,12 +113,18 @@ parent: Frameworks
 
 # Claude Swarm / SwarmSDK Framework Analysis
 
-**Analysis Version:** 1.0.0
-**Framework Version:** 2.3.0
+> **Analysis Metadata**
+> - Date: 2025-12-01
+> - Analyst: Claude (via framework-analyzer skill)
+> - Skill Invocation: CONFIRMED via Skill("rcr-research:framework-analyzer")
+> - Template Version: 1.1
+> - Category: orchestrator
+
+**Framework:** Claude Swarm / SwarmSDK
+**Version:** v2.5.1 (SwarmSDK v2) / v1.0.11 (claude_swarm gem)
 **Category:** orchestrator
-**Analysis Date:** 2025-11-28
-**Analyst:** Claude (via research-framework-analyzer skill)
-**Skill Invocation:** Confirmed
+**Repository:** https://github.com/parruda/swarm
+**License:** MIT
 
 ---
 
@@ -751,7 +757,7 @@ result = swarm.execute(agent: :lead, prompt: "Task", wait: false)
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-01 21:06 UTC |
+Generated: 2025-12-01 22:56 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/claude-swarm">Source Data</a>
 </small>

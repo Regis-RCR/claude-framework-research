@@ -114,12 +114,18 @@ parent: Frameworks
 
 # NioPD Framework Analysis
 
-**Analysis Version:** 1.0.0
-**Framework Version:** 1.0.32
-**Category:** pm (Product Management)
-**Analysis Date:** 2025-11-28
-**Analyst:** Claude (via research-framework-analyzer skill)
-**Skill Invocation:** Confirmed
+> **Analysis Metadata**
+> - Date: 2025-12-01
+> - Analyst: Claude (via framework-analyzer skill)
+> - Skill Invocation: CONFIRMED via Skill("rcr-research:framework-analyzer")
+> - Template Version: 1.1
+> - Category: domain-specific (Product Management)
+
+**Framework:** NioPD
+**Version:** v1.0.32
+**Category:** domain-specific (Product Management)
+**Repository:** https://github.com/iFlow-AI/NioPD
+**License:** MIT
 
 ---
 
@@ -576,7 +582,7 @@ This enables domain-specific adaptation (healthcare PM, fintech PM, etc.) withou
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-01 21:06 UTC |
+Generated: 2025-12-01 22:56 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/niopd">Source Data</a>
 </small>

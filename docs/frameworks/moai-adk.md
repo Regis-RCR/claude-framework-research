@@ -114,12 +114,18 @@ parent: Frameworks
 
 # MoAI-ADK Framework Analysis
 
-**Analysis Version:** 1.0.0
-**Framework Version:** 0.25.11
-**Category:** agentic
-**Analysis Date:** 2025-11-28
-**Analyst:** Claude (via research-framework-analyzer skill)
-**Skill Invocation:** Confirmed
+> **Analysis Metadata**
+> - Date: 2025-12-01
+> - Analyst: Claude (via framework-analyzer skill)
+> - Skill Invocation: CONFIRMED via Skill("rcr-research:framework-analyzer")
+> - Template Version: 1.1
+> - Category: agentic-sdk
+
+**Framework:** MoAI-ADK
+**Version:** v0.30.2
+**Category:** agentic-sdk
+**Repository:** https://github.com/ai-1st/moai-adk
+**License:** MIT
 
 ---
 
@@ -625,7 +631,7 @@ Firebase, Supabase, Vercel, Railway, Convex, Cloudflare, Auth0, Clerk, Neon
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-01 21:06 UTC |
+Generated: 2025-12-01 22:56 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/moai-adk">Source Data</a>
 </small>

@@ -113,12 +113,18 @@ parent: Frameworks
 
 # Claude Task Master Framework Analysis
 
-**Analysis Version:** 1.0.0
-**Framework Version:** 0.33.0
+> **Analysis Metadata**
+> - Date: 2025-12-01
+> - Analyst: Claude (via framework-analyzer skill)
+> - Skill Invocation: CONFIRMED via Skill("rcr-research:framework-analyzer")
+> - Template Version: 1.1
+> - Category: mcp
+
+**Framework:** Claude Task Master
+**Version:** v0.36.0
 **Category:** mcp
-**Analysis Date:** 2025-11-28
-**Analyst:** Claude (via research-framework-analyzer skill)
-**Skill Invocation:** Confirmed
+**Repository:** https://github.com/eyaltoledano/claude-task-master
+**License:** MIT
 
 ---
 
@@ -689,7 +695,7 @@ Perplexity integration enables contextual web research during task planning and 
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-01 21:06 UTC |
+Generated: 2025-12-01 22:56 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/claude-task-master">Source Data</a>
 </small>

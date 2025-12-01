@@ -94,12 +94,18 @@ parent: Frameworks
 
 # Claude Code Development Kit Framework Analysis
 
-**Analysis Version:** 1.0.0
-**Framework Version:** 2.1.0
+> **Analysis Metadata**
+> - Date: 2025-12-01
+> - Analyst: Claude (via framework-analyzer skill)
+> - Skill Invocation: CONFIRMED via Skill("rcr-research:framework-analyzer")
+> - Template Version: 1.1
+> - Category: methodology
+
+**Framework:** Claude Code Development Kit
+**Version:** v2.1.0
 **Category:** methodology
-**Analysis Date:** 2025-11-28
-**Analyst:** Claude (via research-framework-analyzer skill invocation)
-**Skill Invocation:** Confirmed - <command-message> received
+**Repository:** https://github.com/bfpimentel/ccdk
+**License:** MIT
 
 ---
 
@@ -795,7 +801,7 @@ Successful adoption requires:
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-01 21:06 UTC |
+Generated: 2025-12-01 22:56 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/claude-code-dev-kit">Source Data</a>
 </small>

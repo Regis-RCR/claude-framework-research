@@ -112,7 +112,7 @@ parent: Frameworks
 > **Analysis Metadata**
 > - Date: 2025-11-28
 > - Analyst: Claude (via research-framework-analyzer skill)
-> - Skill Invocation: CONFIRMED via Skill("rcr-toolkit:research-framework-analyzer")
+> - Skill Invocation: CONFIRMED via Skill("rcr-research:framework-analyzer")
 > - Template Version: 1.1
 > - Category: domain-specific
 
@@ -1218,7 +1218,7 @@ end
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-01 21:06 UTC |
+Generated: 2025-12-01 22:56 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/claude-on-rails">Source Data</a>
 </small>

@@ -11,7 +11,7 @@ Welcome to the comprehensive framework analysis repository.
 
 | Metric | Value |
 |--------|-------|
-| Total Frameworks | 22 |
+| Total Frameworks | 24 |
 | Categories | 6 |
 | Average SOLID Score | 0.00/5.0 |
 
@@ -34,13 +34,15 @@ Welcome to the comprehensive framework analysis repository.
 
 ### Dev-Methodology
 
-7 frameworks in this category.
+9 frameworks in this category.
 
 - [Ab Method](frameworks/ab-method.md) - SOLID: 3.9/5.0
 - [BMAD Method (Build More, Architect Dreams)](frameworks/bmad-method-(build-more,-architect-dreams).md) - SOLID: 4.3/5.0
 - [claude-code-dev-kit](frameworks/claude-code-dev-kit.md) - SOLID: 4.2/5.0
 - [claude-code-heavy](frameworks/claude-code-heavy.md) - SOLID: 3.8/5.0
+- [Clavix](frameworks/clavix.md) - SOLID: 4.1/5.0
 - [Crystal](frameworks/crystal.md) - SOLID: 4.0/5.0
+- [GitHub Spec-Kit](frameworks/github-spec-kit.md) - SOLID: 4.3/5.0
 - [RIPER-5](frameworks/riper-5.md) - SOLID: 4.2/5.0
 - [SuperClaude](frameworks/superclaude.md) - SOLID: 4.1/5.0
 

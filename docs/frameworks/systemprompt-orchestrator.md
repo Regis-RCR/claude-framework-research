@@ -94,12 +94,18 @@ parent: Frameworks
 
 # SystemPrompt Code Orchestrator Framework Analysis
 
-**Analysis Version:** 1.0.0
-**Framework Version:** 0.01
+> **Analysis Metadata**
+> - Date: 2025-12-01
+> - Analyst: Claude (via framework-analyzer skill)
+> - Skill Invocation: CONFIRMED via Skill("rcr-research:framework-analyzer")
+> - Template Version: 1.1
+> - Category: orchestrator
+
+**Framework:** SystemPrompt Code Orchestrator
+**Version:** v0.01
 **Category:** orchestrator
-**Analysis Date:** 2025-11-28
-**Analyst:** Claude (via research-framework-analyzer skill invocation)
-**Skill Invocation:** Confirmed - <command-message> received
+**Repository:** https://github.com/Systemprompt-LMNR-AI/systemprompt-code-orchestrator
+**License:** MIT
 
 ---
 
@@ -814,7 +820,7 @@ Future versions may address multi-machine scenarios as the project matures.
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-01 21:06 UTC |
+Generated: 2025-12-01 22:56 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/systemprompt-orchestrator">Source Data</a>
 </small>

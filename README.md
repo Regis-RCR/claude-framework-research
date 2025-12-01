@@ -6,9 +6,9 @@ A comprehensive collection of Claude Code framework analyses.
 
 ## Overview
 
-- **22** frameworks analyzed
+- **24** frameworks analyzed
 - **1** categories
-- **4.01** average SOLID score
+- **4.03** average SOLID score
 
 ## Quick Start
 
@@ -21,7 +21,7 @@ Browse the documentation:
 
 ## Categories
 
-- **Uncategorized**: 22 frameworks
+- **Uncategorized**: 24 frameworks
 
 ## Recent Additions
 

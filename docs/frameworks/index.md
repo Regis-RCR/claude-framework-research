@@ -4,7 +4,7 @@ title: All Frameworks
 
 # All Frameworks
 
-Total: 22 frameworks
+Total: 24 frameworks
 
 ## Code-Generation
 
@@ -21,7 +21,9 @@ Total: 22 frameworks
 
 - [Ab Method](ab-method.md) - SOLID: 3.9/5.0
 - [BMAD Method (Build More, Architect Dreams)](bmad-method.md) - SOLID: 4.3/5.0
+- [Clavix](clavix.md) - SOLID: 4.1/5.0
 - [Crystal](crystal.md) - SOLID: 4.0/5.0
+- [GitHub Spec-Kit](github-spec-kit.md) - SOLID: 4.3/5.0
 - [RIPER-5](riper-5.md) - SOLID: 4.2/5.0
 - [SuperClaude](superclaude.md) - SOLID: 4.1/5.0
 - [claude-code-dev-kit](claude-code-dev-kit.md) - SOLID: 4.2/5.0
