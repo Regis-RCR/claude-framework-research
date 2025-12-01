@@ -8,11 +8,11 @@ permalink: /frameworks/
 
 # All Frameworks
 
-Complete listing of 19 analyzed frameworks.
+Complete listing of 22 analyzed frameworks.
 
 ## Quick Stats
 
-- **Total:** 19 frameworks
+- **Total:** 22 frameworks
 - **Technical Approaches:** 4
 - **Execution Models:** 4
 
@@ -41,7 +41,7 @@ Complete listing of 19 analyzed frameworks.
 
 ## Prompt Based
 
-9 frameworks using this technical approach.
+11 frameworks using this technical approach.
 
 | Framework | Version | SOLID | Production |
 |-----------|---------|-------|------------|
@@ -49,18 +49,21 @@ Complete listing of 19 analyzed frameworks.
 | [systemprompt-orchestrator](systemprompt-orchestrator.md) | 0.01 | 4.3/5.0 | 67/100 |
 | [claude-code-dev-kit](claude-code-dev-kit.md) | 2.1.0 | 4.2/5.0 | 64/100 |
 | [RIPER-5](riper-5.md) | 2025.11 | 4.2/5.0 | 72/100 |
+| [Crystal](crystal.md) | 0.3.3 | 4.0/5.0 | 74/100 |
 | [SuperClaude](superclaude.md) | 4.1.9 | 4.0/5.0 | 78/100 |
 | [Ab Method](ab-method.md) | 2.3.0 | 3.9/5.0 | 74/100 |
 | [claude-code-heavy](claude-code-heavy.md) | 1.0.0 | 3.8/5.0 | 52/100 |
 | [ContextKit](contextkit.md) | 1.0.0 | 3.8/5.0 | 75/100 |
+| [CCPM (Claude Code PM)](ccpm.md) | 1.0.0 | 3.7/5.0 | 72/100 |
 | [Simone](simone.md) | 0.4.0-mcp | 3.6/5.0 | 63/100 |
 
 ## Sdk
 
-5 frameworks using this technical approach.
+6 frameworks using this technical approach.
 
 | Framework | Version | SOLID | Production |
 |-----------|---------|-------|------------|
+| [claude-code-by-agents](claude-code-by-agents.md) | 0.1.41 | 4.5/5.0 | 69/100 |
 | [wshobson/agents](wshobson-agents.md) | 1.2.0 | 4.2/5.0 | 83/100 |
 | [Claude Swarm / SwarmSDK](claude-swarm-swarmsdk.md) | 2.5.1 | 4.1/5.0 | 80/100 |
 | [ClaudeKit](claudekit.md) | 0.9.4 | 4.0/5.0 | 81/100 |

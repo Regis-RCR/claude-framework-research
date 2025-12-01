@@ -8,4 +8,4 @@ Compare frameworks within the same category.
 
 ## Categories
 
-- [Uncategorized](uncategorized.md) (19 frameworks)
+- [Uncategorized](uncategorized.md) (22 frameworks)

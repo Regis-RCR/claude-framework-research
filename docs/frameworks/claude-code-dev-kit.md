@@ -795,7 +795,7 @@ Successful adoption requires:
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-01 10:58 UTC |
+Generated: 2025-12-01 11:44 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/claude-code-dev-kit">Source Data</a>
 </small>

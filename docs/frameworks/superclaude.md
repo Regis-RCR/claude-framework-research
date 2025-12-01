@@ -529,7 +529,7 @@ Phase 3: /security --persona-security
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-01 10:58 UTC |
+Generated: 2025-12-01 11:44 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/superclaude">Source Data</a>
 </small>
