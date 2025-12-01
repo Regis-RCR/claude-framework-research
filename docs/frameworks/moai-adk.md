@@ -625,10 +625,8 @@ Firebase, Supabase, Vercel, Railway, Convex, Cloudflare, Auth0, Clerk, Neon
 
 <footer class="generation-meta">
 <small>
-Generated: unknown UTC |
+Generated: 2025-12-01 21:06 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/moai-adk">Source Data</a>
 </small>
 </footer>
-
-<footer class="signature">∵ RCR Regis ∴</footer>
