@@ -1,114 +1,40 @@
 ---
 title: CCPM (Claude Code PM)
-layout: default
-parent: Frameworks
+category: 
+layout: framework
 ---
 
 # CCPM (Claude Code PM)
 
-<div class="framework-meta">
-<strong>Version:</strong> 1.0.0 |
-<strong>Repository:</strong> <a href="https://github.com/automazeio/ccpm">GitHub</a> |
-<strong>License:</strong> MIT
-</div>
+∵ RCR Regis ∴
 
-## Classification
+**Category:** 
+**Version:** 1.0.0
+**Status:** Analyzed
 
-<div class="facets">
-<span class="badge badge-tech">tech: prompt-based</span>
-<span class="badge badge-exec">exec: single-agent</span>
-<span class="badge badge-function">function: context-management</span>
-<span class="badge badge-ecosystem">ecosystem: agnostic</span>
-<span class="badge badge-scope">scope: session-level</span>
-<span class="badge badge-integration">integration: drop-in</span>
-<span class="badge badge-user">user: solo-dev</span>
-<span class="badge badge-complexity">complexity: trivial</span>
-<span class="badge badge-maturity">maturity: beta</span>
-<span class="badge badge-community">community: emerging</span>
-<span class="badge badge-maintenance">maintenance: occasional</span>
-</div>
+## Scores
 
-## Scores Summary
+| Metric | Score | Rating |
+|--------|-------|--------|
+| SOLID Principles | 3.7/5.0 | ⭐⭐⭐☆☆ |
+| Production Ready | 72/100 | 🟡 Beta |
 
-<div class="scores-grid">
-<table>
-<thead>
-<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Overall</strong></td>
-<td>3.7/5.0 ⭐⭐⭐☆☆</td>
-<td><strong>Overall</strong></td>
-<td>72/100 🟡</td>
-</tr>
-<tr>
-<td>S - Single Responsibility</td>
-<td>4.0/5.0</td>
-<td>Reliability</td>
-<td>65</td>
-</tr>
-<tr>
-<td>O - Open/Closed</td>
-<td>3.5/5.0</td>
-<td>Observability</td>
-<td>75</td>
-</tr>
-<tr>
-<td>L - Liskov Substitution</td>
-<td>3.5/5.0</td>
-<td>Security</td>
-<td>80</td>
-</tr>
-<tr>
-<td>I - Interface Segregation</td>
-<td>4.0/5.0</td>
-<td>Performance</td>
-<td>80</td>
-</tr>
-<tr>
-<td>D - Dependency Inversion</td>
-<td>3.5/5.0</td>
-<td>Maintainability</td>
-<td>60</td>
-</tr>
-</tbody>
-</table>
-</div>
+### SOLID Breakdown
 
-## Key Innovations
+| Principle | Score | Notes |
+|-----------|-------|-------|
+| S - Single Responsibility | N/A | - |
+| O - Open/Closed | N/A | - |
+| L - Liskov Substitution | N/A | - |
+| I - Interface Segregation | N/A | - |
+| D - Dependency Inversion | N/A | - |
 
-<ul class="compact-list">
-<li>Parallel spec-driven execution via Git worktrees</li>
-<li>GitHub Issues as distributed coordination database</li>
-<li>"No Vibe Coding" discipline with 5-phase workflow</li>
-<li>Agent Context Firewall pattern</li>
-<li>Zero-dependency architecture (shell + markdown)</li>
-<li>Offline-first capability (LOCAL_MODE)</li>
-</ul>
+## Overview
 
-## Best For
+*No description available.*
 
-<ul class="compact-list">
-<li>Complex multi-component feature development</li>
-<li>Team-based AI development coordination</li>
-<li>Regulated environments requiring audit trails</li>
-<li>Test-driven development workflows</li>
-<li>Open source project management</li>
-</ul>
 
-## Limitations
 
-<ul class="compact-list">
-<li>No official releases or semantic versioning</li>
-<li>Steep learning curve (Git worktrees, 5-phase)</li>
-<li>Bus factor risk (73.8% commits from one developer)</li>
-<li>Cross-platform issues (Windows)</li>
-<li>Overhead unsuitable for rapid prototyping</li>
-<li>Claude Code platform lock-in</li>
-</ul>
-
----
 
 ## Full Analysis
 
@@ -586,12 +512,8 @@ GitHub Issues as distributed database:
 
 ---
 
-<footer class="generation-meta">
-<small>
-Generated: 2025-12-01 11:44 UTC |
-Template: framework-page.md.j2 v2.0 |
-<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/ccpm">Source Data</a>
-</small>
-</footer>
+## Navigation
 
-<footer class="signature">∵ RCR Regis ∴</footer>
+- [← Back to All Frameworks](index.md)
+- [Comparison with similar frameworks](../comparisons/.md)
+- [Full Synthesis](../synthesis.md)

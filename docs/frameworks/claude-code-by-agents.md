@@ -1,94 +1,40 @@
 ---
 title: claude-code-by-agents
-layout: default
-parent: Frameworks
+category: 
+layout: framework
 ---
 
 # claude-code-by-agents
 
-<div class="framework-meta">
-<strong>Version:</strong> 0.1.41 |
-<strong>Repository:</strong> <a href="https://github.com/baryhuang/claude-code-by-agents">GitHub</a> |
-<strong>License:</strong> MIT
-</div>
+∵ RCR Regis ∴
 
-## Classification
+**Category:** 
+**Version:** 0.1.41
+**Status:** Analyzed
 
-<div class="facets">
-<span class="badge badge-tech">tech: sdk</span>
-<span class="badge badge-exec">exec: multi-agent</span>
-<span class="badge badge-function">function: orchestration</span>
-<span class="badge badge-ecosystem">ecosystem: typescript</span>
-<span class="badge badge-scope">scope: project-level</span>
-<span class="badge badge-integration">integration: code-integration</span>
-<span class="badge badge-user">user: team</span>
-<span class="badge badge-complexity">complexity: moderate</span>
-<span class="badge badge-maturity">maturity: beta</span>
-<span class="badge badge-community">community: growing</span>
-<span class="badge badge-maintenance">maintenance: active</span>
-</div>
+## Scores
 
-## Scores Summary
+| Metric | Score | Rating |
+|--------|-------|--------|
+| SOLID Principles | 4.5/5.0 | ⭐⭐⭐⭐☆ |
+| Production Ready | 69/100 | 🟡 Beta |
 
-<div class="scores-grid">
-<table>
-<thead>
-<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Overall</strong></td>
-<td>4.5/5.0 ⭐⭐⭐⭐☆</td>
-<td><strong>Overall</strong></td>
-<td>69/100 🟡</td>
-</tr>
-<tr>
-<td>S - Single Responsibility</td>
-<td>5.0/5.0</td>
-<td>Reliability</td>
-<td>75</td>
-</tr>
-<tr>
-<td>O - Open/Closed</td>
-<td>5.0/5.0</td>
-<td>Observability</td>
-<td>55</td>
-</tr>
-<tr>
-<td>L - Liskov Substitution</td>
-<td>5.0/5.0</td>
-<td>Security</td>
-<td>65</td>
-</tr>
-<tr>
-<td>I - Interface Segregation</td>
-<td>5.0/5.0</td>
-<td>Performance</td>
-<td>70</td>
-</tr>
-<tr>
-<td>D - Dependency Inversion</td>
-<td>5.0/5.0</td>
-<td>Maintainability</td>
-<td>78</td>
-</tr>
-</tbody>
-</table>
-</div>
+### SOLID Breakdown
+
+| Principle | Score | Notes |
+|-----------|-------|-------|
+| S - Single Responsibility | N/A | - |
+| O - Open/Closed | N/A | - |
+| L - Liskov Substitution | N/A | - |
+| I - Interface Segregation | N/A | - |
+| D - Dependency Inversion | N/A | - |
+
+## Overview
+
+*No description available.*
 
 
 
-## Limitations
-
-<ul class="compact-list">
-<li>HTTP only for agents (no HTTPS)</li>
-<li>no agent authentication</li>
-<li>limited observability</li>
-<li>single orchestrator point of failure</li>
-<li>manual agent registration</li>
-</ul>
-
----
 
 ## Full Analysis
 
@@ -855,12 +801,8 @@ interface ResourceLimits {
 
 ---
 
-<footer class="generation-meta">
-<small>
-Generated: 2025-12-01 11:44 UTC |
-Template: framework-page.md.j2 v2.0 |
-<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/claude-code-by-agents">Source Data</a>
-</small>
-</footer>
+## Navigation
 
-<footer class="signature">∵ RCR Regis ∴</footer>
+- [← Back to All Frameworks](index.md)
+- [Comparison with similar frameworks](../comparisons/.md)
+- [Full Synthesis](../synthesis.md)

@@ -1,96 +1,40 @@
 ---
 title: taskmaster-mcp
-layout: default
-parent: Frameworks
+category: 
+layout: framework
 ---
 
 # taskmaster-mcp
 
-<div class="framework-meta">
-<strong>Version:</strong> 0.15.0 |
-<strong>Repository:</strong> <a href="https://github.com/eyaltoledano/claude-task-master">GitHub</a> |
-<strong>License:</strong> MIT with Commons Clause
-</div>
+∵ RCR Regis ∴
 
-## Classification
+**Category:** 
+**Version:** 0.15.0
+**Status:** Analyzed
 
-<div class="facets">
-<span class="badge badge-tech">tech: mcp-native</span>
-<span class="badge badge-exec">exec: single-agent</span>
-<span class="badge badge-function">function: task-management</span>
-<span class="badge badge-ecosystem">ecosystem: agnostic</span>
-<span class="badge badge-scope">scope: project-level</span>
-<span class="badge badge-integration">integration: config-required</span>
-<span class="badge badge-user">user: solo-dev, team</span>
-<span class="badge badge-complexity">complexity: moderate</span>
-<span class="badge badge-maturity">maturity: stable</span>
-<span class="badge badge-community">community: growing</span>
-<span class="badge badge-maintenance">maintenance: active</span>
-</div>
+## Scores
 
-## Scores Summary
+| Metric | Score | Rating |
+|--------|-------|--------|
+| SOLID Principles | 4.2/5.0 | ⭐⭐⭐⭐☆ |
+| Production Ready | 74/100 | 🟡 Beta |
 
-<div class="scores-grid">
-<table>
-<thead>
-<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Overall</strong></td>
-<td>4.2/5.0 ⭐⭐⭐⭐☆</td>
-<td><strong>Overall</strong></td>
-<td>74/100 🟡</td>
-</tr>
-<tr>
-<td>S - Single Responsibility</td>
-<td>5.0/5.0</td>
-<td>Reliability</td>
-<td>78</td>
-</tr>
-<tr>
-<td>O - Open/Closed</td>
-<td>5.0/5.0</td>
-<td>Observability</td>
-<td>65</td>
-</tr>
-<tr>
-<td>L - Liskov Substitution</td>
-<td>4.0/5.0</td>
-<td>Security</td>
-<td>72</td>
-</tr>
-<tr>
-<td>I - Interface Segregation</td>
-<td>5.0/5.0</td>
-<td>Performance</td>
-<td>75</td>
-</tr>
-<tr>
-<td>D - Dependency Inversion</td>
-<td>4.0/5.0</td>
-<td>Maintainability</td>
-<td>80</td>
-</tr>
-</tbody>
-</table>
-</div>
+### SOLID Breakdown
+
+| Principle | Score | Notes |
+|-----------|-------|-------|
+| S - Single Responsibility | N/A | - |
+| O - Open/Closed | N/A | - |
+| L - Liskov Substitution | N/A | - |
+| I - Interface Segregation | N/A | - |
+| D - Dependency Inversion | N/A | - |
+
+## Overview
+
+*No description available.*
 
 
 
-## Limitations
-
-<ul class="compact-list">
-<li>21k token overhead (full mode)</li>
-<li>PRD-dependent for best results</li>
-<li>requires API keys</li>
-<li>file-based storage only</li>
-<li>single-user focus</li>
-<li>no real-time sync</li>
-<li>Commons Clause license restriction</li>
-</ul>
-
----
 
 ## Full Analysis
 
@@ -595,12 +539,8 @@ Structured research report suitable for task implementation.
 
 ---
 
-<footer class="generation-meta">
-<small>
-Generated: 2025-12-01 11:44 UTC |
-Template: framework-page.md.j2 v2.0 |
-<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/taskmaster-mcp">Source Data</a>
-</small>
-</footer>
+## Navigation
 
-<footer class="signature">∵ RCR Regis ∴</footer>
+- [← Back to All Frameworks](index.md)
+- [Comparison with similar frameworks](../comparisons/.md)
+- [Full Synthesis](../synthesis.md)

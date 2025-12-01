@@ -1,85 +1,40 @@
 ---
 title: Ab Method
-layout: default
-parent: Frameworks
+category: 
+layout: framework
 ---
 
 # Ab Method
 
-<div class="framework-meta">
-<strong>Version:</strong> 2.3.0 |
-<strong>Repository:</strong> <a href="">GitHub</a> |
-<strong>License:</strong> Unknown
-</div>
+∵ RCR Regis ∴
 
-## Classification
+**Category:** 
+**Version:** 2.3.0
+**Status:** Analyzed
 
-<div class="facets">
-<span class="badge badge-tech">tech: prompt-based</span>
-<span class="badge badge-exec">exec: sequential</span>
-<span class="badge badge-function">function: dev-methodology</span>
-<span class="badge badge-ecosystem">ecosystem: agnostic</span>
-<span class="badge badge-scope">scope: project-level</span>
-<span class="badge badge-integration">integration: drop-in</span>
-<span class="badge badge-user">user: solo-dev</span>
-<span class="badge badge-complexity">complexity: moderate</span>
-<span class="badge badge-maturity">maturity: stable</span>
-<span class="badge badge-community">community: growing</span>
-<span class="badge badge-maintenance">maintenance: active</span>
-</div>
+## Scores
 
-## Scores Summary
+| Metric | Score | Rating |
+|--------|-------|--------|
+| SOLID Principles | 3.9/5.0 | ⭐⭐⭐☆☆ |
+| Production Ready | 74/100 | 🟡 Beta |
 
-<div class="scores-grid">
-<table>
-<thead>
-<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Overall</strong></td>
-<td>3.9/5.0 ⭐⭐⭐☆☆</td>
-<td><strong>Overall</strong></td>
-<td>74/100 🟡</td>
-</tr>
-<tr>
-<td>S - Single Responsibility</td>
-<td>0.0/5.0</td>
-<td>Reliability</td>
-<td>-</td>
-</tr>
-<tr>
-<td>O - Open/Closed</td>
-<td>0.0/5.0</td>
-<td>Observability</td>
-<td>-</td>
-</tr>
-<tr>
-<td>L - Liskov Substitution</td>
-<td>0.0/5.0</td>
-<td>Security</td>
-<td>-</td>
-</tr>
-<tr>
-<td>I - Interface Segregation</td>
-<td>0.0/5.0</td>
-<td>Performance</td>
-<td>-</td>
-</tr>
-<tr>
-<td>D - Dependency Inversion</td>
-<td>0.0/5.0</td>
-<td>Maintainability</td>
-<td>-</td>
-</tr>
-</tbody>
-</table>
-</div>
+### SOLID Breakdown
+
+| Principle | Score | Notes |
+|-----------|-------|-------|
+| S - Single Responsibility | N/A | - |
+| O - Open/Closed | N/A | - |
+| L - Liskov Substitution | N/A | - |
+| I - Interface Segregation | N/A | - |
+| D - Dependency Inversion | N/A | - |
+
+## Overview
+
+*No description available.*
 
 
 
-
----
 
 ## Full Analysis
 
@@ -955,12 +910,8 @@ Each transition requires explicit action, ensuring deliberate progress through t
 
 ---
 
-<footer class="generation-meta">
-<small>
-Generated: 2025-12-01 11:44 UTC |
-Template: framework-page.md.j2 v2.0 |
-<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/ab-method">Source Data</a>
-</small>
-</footer>
+## Navigation
 
-<footer class="signature">∵ RCR Regis ∴</footer>
+- [← Back to All Frameworks](index.md)
+- [Comparison with similar frameworks](../comparisons/.md)
+- [Full Synthesis](../synthesis.md)

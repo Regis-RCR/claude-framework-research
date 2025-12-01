@@ -1,112 +1,40 @@
 ---
 title: wshobson/agents
-layout: default
-parent: Frameworks
+category: 
+layout: framework
 ---
 
 # wshobson/agents
 
-<div class="framework-meta">
-<strong>Version:</strong> 1.2.0 |
-<strong>Repository:</strong> <a href="https://github.com/wshobson/agents">GitHub</a> |
-<strong>License:</strong> MIT
-</div>
+∵ RCR Regis ∴
 
-## Classification
+**Category:** 
+**Version:** 1.2.0
+**Status:** Analyzed
 
-<div class="facets">
-<span class="badge badge-tech">tech: sdk</span>
-<span class="badge badge-exec">exec: multi-agent, parallel</span>
-<span class="badge badge-function">function: orchestration</span>
-<span class="badge badge-ecosystem">ecosystem: typescript</span>
-<span class="badge badge-scope">scope: project-level</span>
-<span class="badge badge-integration">integration: code-integration</span>
-<span class="badge badge-user">user: team</span>
-<span class="badge badge-complexity">complexity: high</span>
-<span class="badge badge-maturity">maturity: stable</span>
-<span class="badge badge-community">community: established</span>
-<span class="badge badge-maintenance">maintenance: active</span>
-</div>
+## Scores
 
-## Scores Summary
+| Metric | Score | Rating |
+|--------|-------|--------|
+| SOLID Principles | 4.2/5.0 | ⭐⭐⭐⭐☆ |
+| Production Ready | 83/100 | 🟢 Production |
 
-<div class="scores-grid">
-<table>
-<thead>
-<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Overall</strong></td>
-<td>4.2/5.0 ⭐⭐⭐⭐☆</td>
-<td><strong>Overall</strong></td>
-<td>83/100 🟢</td>
-</tr>
-<tr>
-<td>S - Single Responsibility</td>
-<td>4.5/5.0</td>
-<td>Reliability</td>
-<td>85</td>
-</tr>
-<tr>
-<td>O - Open/Closed</td>
-<td>4.0/5.0</td>
-<td>Observability</td>
-<td>75</td>
-</tr>
-<tr>
-<td>L - Liskov Substitution</td>
-<td>4.0/5.0</td>
-<td>Security</td>
-<td>80</td>
-</tr>
-<tr>
-<td>I - Interface Segregation</td>
-<td>4.5/5.0</td>
-<td>Performance</td>
-<td>90</td>
-</tr>
-<tr>
-<td>D - Dependency Inversion</td>
-<td>4.0/5.0</td>
-<td>Maintainability</td>
-<td>85</td>
-</tr>
-</tbody>
-</table>
-</div>
+### SOLID Breakdown
 
-## Key Innovations
+| Principle | Score | Notes |
+|-----------|-------|-------|
+| S - Single Responsibility | N/A | - |
+| O - Open/Closed | N/A | - |
+| L - Liskov Substitution | N/A | - |
+| I - Interface Segregation | N/A | - |
+| D - Dependency Inversion | N/A | - |
 
-<ul class="compact-list">
-<li>Zero-token marketplace registration</li>
-<li>Progressive disclosure architecture (3-tier)</li>
-<li>Hybrid model orchestration (Haiku/Sonnet)</li>
-<li>Model-invoked skill activation patterns</li>
-<li>Discipline-encoded development workflows</li>
-</ul>
+## Overview
 
-## Best For
+*No description available.*
 
-<ul class="compact-list">
-<li>Claude Code plugin development</li>
-<li>Multi-agent workflow orchestration</li>
-<li>Development workflow automation</li>
-<li>Plugin marketplace management</li>
-<li>Skill-based capability extension</li>
-</ul>
 
-## Limitations
 
-<ul class="compact-list">
-<li>Significant learning curve</li>
-<li>Opinionated workflow enforcement</li>
-<li>Centralized marketplace model</li>
-<li>Context window pressure under heavy use</li>
-<li>Claude Code platform coupling</li>
-</ul>
-
----
 
 ## Full Analysis
 
@@ -684,12 +612,8 @@ The framework supports parallelization at multiple levels:
 
 ---
 
-<footer class="generation-meta">
-<small>
-Generated: 2025-12-01 11:44 UTC |
-Template: framework-page.md.j2 v2.0 |
-<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/wshobson-agents">Source Data</a>
-</small>
-</footer>
+## Navigation
 
-<footer class="signature">∵ RCR Regis ∴</footer>
+- [← Back to All Frameworks](index.md)
+- [Comparison with similar frameworks](../comparisons/.md)
+- [Full Synthesis](../synthesis.md)

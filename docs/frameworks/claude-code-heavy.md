@@ -1,96 +1,40 @@
 ---
 title: claude-code-heavy
-layout: default
-parent: Frameworks
+category: 
+layout: framework
 ---
 
 # claude-code-heavy
 
-<div class="framework-meta">
-<strong>Version:</strong> 1.0.0 |
-<strong>Repository:</strong> <a href="https://github.com/gtrusler/claude-code-heavy">GitHub</a> |
-<strong>License:</strong> MIT
-</div>
+∵ RCR Regis ∴
 
-## Classification
+**Category:** 
+**Version:** 1.0.0
+**Status:** Analyzed
 
-<div class="facets">
-<span class="badge badge-tech">tech: prompt-based</span>
-<span class="badge badge-exec">exec: single-agent</span>
-<span class="badge badge-function">function: dev-methodology</span>
-<span class="badge badge-ecosystem">ecosystem: agnostic</span>
-<span class="badge badge-scope">scope: session-level</span>
-<span class="badge badge-integration">integration: drop-in</span>
-<span class="badge badge-user">user: solo-dev</span>
-<span class="badge badge-complexity">complexity: trivial</span>
-<span class="badge badge-maturity">maturity: experimental</span>
-<span class="badge badge-community">community: emerging</span>
-<span class="badge badge-maintenance">maintenance: occasional</span>
-</div>
+## Scores
 
-## Scores Summary
+| Metric | Score | Rating |
+|--------|-------|--------|
+| SOLID Principles | 3.8/5.0 | ⭐⭐⭐☆☆ |
+| Production Ready | 52/100 | 🟠 Alpha |
 
-<div class="scores-grid">
-<table>
-<thead>
-<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Overall</strong></td>
-<td>3.8/5.0 ⭐⭐⭐☆☆</td>
-<td><strong>Overall</strong></td>
-<td>52/100 🟠</td>
-</tr>
-<tr>
-<td>S - Single Responsibility</td>
-<td>5.0/5.0</td>
-<td>Reliability</td>
-<td>55</td>
-</tr>
-<tr>
-<td>O - Open/Closed</td>
-<td>4.0/5.0</td>
-<td>Observability</td>
-<td>35</td>
-</tr>
-<tr>
-<td>L - Liskov Substitution</td>
-<td>3.0/5.0</td>
-<td>Security</td>
-<td>60</td>
-</tr>
-<tr>
-<td>I - Interface Segregation</td>
-<td>4.0/5.0</td>
-<td>Performance</td>
-<td>65</td>
-</tr>
-<tr>
-<td>D - Dependency Inversion</td>
-<td>3.0/5.0</td>
-<td>Maintainability</td>
-<td>45</td>
-</tr>
-</tbody>
-</table>
-</div>
+### SOLID Breakdown
+
+| Principle | Score | Notes |
+|-----------|-------|-------|
+| S - Single Responsibility | N/A | - |
+| O - Open/Closed | N/A | - |
+| L - Liskov Substitution | N/A | - |
+| I - Interface Segregation | N/A | - |
+| D - Dependency Inversion | N/A | - |
+
+## Overview
+
+*No description available.*
 
 
 
-## Limitations
-
-<ul class="compact-list">
-<li>manual coordination only</li>
-<li>no inter-agent communication</li>
-<li>single-machine focus</li>
-<li>no state persistence</li>
-<li>shell complexity</li>
-<li>API rate limit sensitivity</li>
-<li>limited progress visibility</li>
-</ul>
-
----
 
 ## Full Analysis
 
@@ -464,12 +408,8 @@ Create a unified report that:
 
 ---
 
-<footer class="generation-meta">
-<small>
-Generated: 2025-12-01 11:44 UTC |
-Template: framework-page.md.j2 v2.0 |
-<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/claude-code-heavy">Source Data</a>
-</small>
-</footer>
+## Navigation
 
-<footer class="signature">∵ RCR Regis ∴</footer>
+- [← Back to All Frameworks](index.md)
+- [Comparison with similar frameworks](../comparisons/.md)
+- [Full Synthesis](../synthesis.md)
