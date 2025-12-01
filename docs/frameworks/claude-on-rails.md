@@ -1,40 +1,109 @@
 ---
 title: Claude on Rails
-category: 
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # Claude on Rails
 
-∵ RCR Regis ∴
+<div class="framework-meta">
+<strong>Version:</strong> 0.2.0 |
+<strong>Repository:</strong> <a href="https://github.com/obie/claude-on-rails">GitHub</a> |
+<strong>License:</strong> MIT
+</div>
 
-**Category:** 
-**Version:** 0.2.0
-**Status:** Analyzed
+## Classification
 
-## Scores
+<div class="facets">
+<span class="badge badge-tech">tech: sdk</span>
+<span class="badge badge-exec">exec: single-agent</span>
+<span class="badge badge-function">function: code-generation</span>
+<span class="badge badge-ecosystem">ecosystem: ruby</span>
+<span class="badge badge-scope">scope: project-level</span>
+<span class="badge badge-integration">integration: code-integration</span>
+<span class="badge badge-user">user: solo-dev</span>
+<span class="badge badge-complexity">complexity: moderate</span>
+<span class="badge badge-maturity">maturity: beta</span>
+<span class="badge badge-community">community: growing</span>
+<span class="badge badge-maintenance">maintenance: active</span>
+</div>
 
-| Metric | Score | Rating |
-|--------|-------|--------|
-| SOLID Principles | 3.7/5.0 | ⭐⭐⭐☆☆ |
-| Production Ready | 68/100 | 🟡 Beta |
+## Scores Summary
 
-### SOLID Breakdown
+<div class="scores-grid">
+<table>
+<thead>
+<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Overall</strong></td>
+<td>3.7/5.0 ⭐⭐⭐☆☆</td>
+<td><strong>Overall</strong></td>
+<td>68/100 🟡</td>
+</tr>
+<tr>
+<td>S - Single Responsibility</td>
+<td>3.8/5.0</td>
+<td>Reliability</td>
+<td>68</td>
+</tr>
+<tr>
+<td>O - Open/Closed</td>
+<td>3.5/5.0</td>
+<td>Observability</td>
+<td>52</td>
+</tr>
+<tr>
+<td>L - Liskov Substitution</td>
+<td>3.5/5.0</td>
+<td>Security</td>
+<td>72</td>
+</tr>
+<tr>
+<td>I - Interface Segregation</td>
+<td>4.0/5.0</td>
+<td>Performance</td>
+<td>60</td>
+</tr>
+<tr>
+<td>D - Dependency Inversion</td>
+<td>3.7/5.0</td>
+<td>Maintainability</td>
+<td>68</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-| Principle | Score | Notes |
-|-----------|-------|-------|
-| S - Single Responsibility | 3.8 | - |
-| O - Open/Closed | 3.5 | - |
-| L - Liskov Substitution | 3.5 | - |
-| I - Interface Segregation | 4.0 | - |
-| D - Dependency Inversion | 3.7 | - |
+## Key Innovations
 
-## Overview
+<ul class="compact-list">
+<li>Multi-agent swarm for Rails (7 specialists)</li>
+<li>Automatic agent orchestration from natural language</li>
+<li>Rails-native understanding (conventions, patterns)</li>
+<li>MCP integration (Rails, Turbo, Stimulus, Kamal docs)</li>
+<li>Test-driven development as core feature</li>
+</ul>
 
-*No description available.*
+## Best For
 
+<ul class="compact-list">
+<li>Full-stack Rails feature implementation</li>
+<li>Rapid API development with Rails conventions</li>
+<li>Modern Rails stacks (Turbo, Stimulus, Rails 6+)</li>
+</ul>
 
+## Limitations
 
+<ul class="compact-list">
+<li>Rails 6+ only (no legacy support)</li>
+<li>Token budget concerns for large projects</li>
+<li>Non-Rails projects not supported</li>
+<li>Early version (0.2.0)</li>
+</ul>
+
+---
 
 ## Full Analysis
 
@@ -1147,8 +1216,12 @@ end
 
 ---
 
-## Navigation
+<footer class="generation-meta">
+<small>
+Generated: unknown UTC |
+Template: framework-page.md.j2 v2.0 |
+<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/claude-on-rails">Source Data</a>
+</small>
+</footer>
 
-- [← Back to All Frameworks](index.md)
-- [Comparison with similar frameworks](../comparisons/.md)
-- [Full Synthesis](../synthesis.md)
+<footer class="signature">∵ RCR Regis ∴</footer>

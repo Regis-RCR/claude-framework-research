@@ -5,8 +5,6 @@ layout: default
 
 # Framework Research Corpus
 
-∵ RCR Regis ∴
-
 Welcome to the comprehensive framework analysis repository.
 
 ## Statistics
@@ -56,3 +54,5 @@ Welcome to the comprehensive framework analysis repository.
 ---
 
 *Last updated: unknown*
+
+<footer class="signature">∵ RCR Regis ∴</footer>

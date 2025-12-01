@@ -1,72 +1,154 @@
 ---
-title: Framework Synthesis
+title: Synthesis
 layout: default
+nav_order: 4
+permalink: /synthesis/
 ---
 
 # Framework Synthesis
 
-∵ RCR Regis ∴
-
 Cross-framework analysis of 22 frameworks.
 
-## Executive Summary
+## Quick Stats
 
-This synthesis aggregates insights from 22 framework analyses across 1 categories.
+| Metric | Value | | Metric | Value |
+|--------|-------|---|--------|-------|
+| Total Frameworks | 22 | | Categories | 1 |
+| Avg SOLID | 4.01/5.0 | | Avg Production | 72/100 |
 
-### Key Metrics
+## By Technical Foundation
 
-| Metric | Value |
-|--------|-------|
-| Total Frameworks | 22 |
-| Categories | 1 |
-| Average SOLID Score | 4.01/5.0 |
-| Average Production Score | 72/100 |
+<div class="facet-grid">
+<div class="facet-card">
+<h4>cli</h4>
+<ul><li>Claude Flow</li><li>Claude Squad</li><li>Claude Swarm / SwarmSDK</li></ul>
+</div>
+<div class="facet-card">
+<h4>mcp-native</h4>
+<ul><li>Claude Task Master</li><li>NioPD (Nio Product Director)</li><li>Simone</li><li>taskmaster-mcp</li></ul>
+</div>
+<div class="facet-card">
+<h4>prompt-based</h4>
+<ul><li>Ab Method</li><li>BMAD Method (Build More, Architect Dreams)</li><li>CCPM (Claude Code PM)</li><li>claude-code-dev-kit</li><li>claude-code-heavy</li><li>ContextKit</li><li>Crystal</li><li>RIPER-5</li><li>Simone</li><li>SuperClaude</li><li>systemprompt-orchestrator</li></ul>
+</div>
+<div class="facet-card">
+<h4>sdk</h4>
+<ul><li>claude-code-by-agents</li><li>Claude on Rails</li><li>Claude Swarm / SwarmSDK</li><li>ClaudeKit</li><li>MoAI-ADK (Agentic Development Kit)</li><li>wshobson/agents</li></ul>
+</div>
+</div>
 
-## Category Distribution
+## By Execution Model
 
-- **Uncategorized**: 22 frameworks (100.0%)
+<div class="facet-grid">
+<div class="facet-card">
+<h4>multi-agent</h4>
+<ul><li>claude-code-by-agents</li><li>Claude Flow</li><li>Claude Squad</li><li>Claude Swarm / SwarmSDK</li><li>MoAI-ADK (Agentic Development Kit)</li><li>systemprompt-orchestrator</li><li>wshobson/agents</li></ul>
+</div>
+<div class="facet-card">
+<h4>parallel</h4>
+<ul><li>Claude Flow</li><li>Claude Squad</li><li>Claude Swarm / SwarmSDK</li><li>wshobson/agents</li></ul>
+</div>
+<div class="facet-card">
+<h4>sequential</h4>
+<ul><li>Ab Method</li><li>BMAD Method (Build More, Architect Dreams)</li><li>claude-code-dev-kit</li><li>Crystal</li><li>RIPER-5</li></ul>
+</div>
+<div class="facet-card">
+<h4>single-agent</h4>
+<ul><li>BMAD Method (Build More, Architect Dreams)</li><li>CCPM (Claude Code PM)</li><li>claude-code-heavy</li><li>Claude on Rails</li><li>Claude Task Master</li><li>ClaudeKit</li><li>ContextKit</li><li>NioPD (Nio Product Director)</li><li>Simone</li><li>SuperClaude</li><li>taskmaster-mcp</li></ul>
+</div>
+</div>
+
+## By Primary Function
+
+<div class="facet-grid">
+<div class="facet-card">
+<h4>code-generation</h4>
+<ul><li>Claude on Rails</li><li>ClaudeKit</li></ul>
+</div>
+<div class="facet-card">
+<h4>context-management</h4>
+<ul><li>CCPM (Claude Code PM)</li><li>ContextKit</li><li>Simone</li></ul>
+</div>
+<div class="facet-card">
+<h4>dev-methodology</h4>
+<ul><li>Ab Method</li><li>BMAD Method (Build More, Architect Dreams)</li><li>claude-code-dev-kit</li><li>claude-code-heavy</li><li>Crystal</li><li>RIPER-5</li><li>SuperClaude</li></ul>
+</div>
+<div class="facet-card">
+<h4>orchestration</h4>
+<ul><li>claude-code-by-agents</li><li>Claude Flow</li><li>Claude Squad</li><li>Claude Swarm / SwarmSDK</li><li>MoAI-ADK (Agentic Development Kit)</li><li>systemprompt-orchestrator</li><li>wshobson/agents</li></ul>
+</div>
+<div class="facet-card">
+<h4>project-planning</h4>
+<ul><li>BMAD Method (Build More, Architect Dreams)</li><li>NioPD (Nio Product Director)</li></ul>
+</div>
+<div class="facet-card">
+<h4>task-management</h4>
+<ul><li>Claude Task Master</li><li>taskmaster-mcp</li></ul>
+</div>
+</div>
+
+## By Complexity
+
+<div class="facet-grid">
+<div class="facet-card">
+<h4>high</h4>
+<ul><li>Claude Flow</li><li>Claude Squad</li><li>Claude Swarm / SwarmSDK</li><li>MoAI-ADK (Agentic Development Kit)</li><li>wshobson/agents</li></ul>
+</div>
+<div class="facet-card">
+<h4>low</h4>
+<ul><li>claude-code-dev-kit</li><li>ContextKit</li><li>Crystal</li><li>RIPER-5</li><li>SuperClaude</li></ul>
+</div>
+<div class="facet-card">
+<h4>moderate</h4>
+<ul><li>Ab Method</li><li>BMAD Method (Build More, Architect Dreams)</li><li>claude-code-by-agents</li><li>Claude on Rails</li><li>Claude Task Master</li><li>ClaudeKit</li><li>NioPD (Nio Product Director)</li><li>Simone</li><li>systemprompt-orchestrator</li><li>taskmaster-mcp</li></ul>
+</div>
+<div class="facet-card">
+<h4>trivial</h4>
+<ul><li>CCPM (Claude Code PM)</li><li>claude-code-heavy</li></ul>
+</div>
+</div>
+
+## By Maturity
+
+<div class="facet-grid">
+<div class="facet-card">
+<h4>beta</h4>
+<ul><li>CCPM (Claude Code PM)</li><li>claude-code-by-agents</li><li>Claude Flow</li><li>Claude on Rails</li><li>Claude Squad</li><li>ClaudeKit</li><li>MoAI-ADK (Agentic Development Kit)</li><li>Simone</li></ul>
+</div>
+<div class="facet-card">
+<h4>experimental</h4>
+<ul><li>claude-code-heavy</li><li>Crystal</li><li>systemprompt-orchestrator</li></ul>
+</div>
+<div class="facet-card">
+<h4>stable</h4>
+<ul><li>Ab Method</li><li>BMAD Method (Build More, Architect Dreams)</li><li>claude-code-dev-kit</li><li>Claude Swarm / SwarmSDK</li><li>Claude Task Master</li><li>ContextKit</li><li>NioPD (Nio Product Director)</li><li>RIPER-5</li><li>SuperClaude</li><li>taskmaster-mcp</li><li>wshobson/agents</li></ul>
+</div>
+</div>
 
 ## Top Performers
 
-### By SOLID Principles
-
-These frameworks demonstrate exceptional adherence to SOLID principles:
-
-1. **claude-code-by-agents** ()
-   - SOLID: 4.5/5.0
-   - Production: 69/100
-2. **BMAD Method (Build More, Architect Dreams)** ()
-   - SOLID: 4.3/5.0
-   - Production: 87/100
-3. **systemprompt-orchestrator** ()
-   - SOLID: 4.3/5.0
-   - Production: 67/100
-4. **claude-code-dev-kit** ()
-   - SOLID: 4.2/5.0
-   - Production: 64/100
-5. **Claude Task Master** ()
-   - SOLID: 4.2/5.0
-   - Production: 83/100
-
-### By Production Readiness
-
-These frameworks are most ready for production deployment:
-
-1. **BMAD Method (Build More, Architect Dreams)** ()
-   - Production: 87/100
-   - SOLID: 4.3/5.0
-2. **Claude Task Master** ()
-   - Production: 83/100
-   - SOLID: 4.2/5.0
-3. **wshobson/agents** ()
-   - Production: 83/100
-   - SOLID: 4.2/5.0
-4. **ClaudeKit** ()
-   - Production: 81/100
-   - SOLID: 4.0/5.0
-5. **Claude Swarm / SwarmSDK** ()
-   - Production: 80/100
-   - SOLID: 4.1/5.0
+<div class="top-grid">
+<div>
+<h4>By SOLID Score</h4>
+<ol>
+<li><strong>claude-code-by-agents</strong> - 4.5/5.0</li>
+<li><strong>BMAD Method (Build More, Architect Dreams)</strong> - 4.3/5.0</li>
+<li><strong>systemprompt-orchestrator</strong> - 4.3/5.0</li>
+<li><strong>claude-code-dev-kit</strong> - 4.2/5.0</li>
+<li><strong>Claude Task Master</strong> - 4.2/5.0</li>
+</ol>
+</div>
+<div>
+<h4>By Production Ready</h4>
+<ol>
+<li><strong>BMAD Method (Build More, Architect Dreams)</strong> - 87/100</li>
+<li><strong>Claude Task Master</strong> - 83/100</li>
+<li><strong>wshobson/agents</strong> - 83/100</li>
+<li><strong>ClaudeKit</strong> - 81/100</li>
+<li><strong>Claude Swarm / SwarmSDK</strong> - 80/100</li>
+</ol>
+</div>
+</div>
 
 ## Common Patterns
 
@@ -92,8 +174,8 @@ Common weaknesses identified across frameworks:
 
 Based on this synthesis:
 
-1. **For New Projects**: Prioritize frameworks with SOLID score ≥ 4.0
-2. **For Production**: Require production readiness score ≥ 70
+1. **For New Projects**: Prioritize frameworks with SOLID score >= 4.0
+2. **For Production**: Require production readiness score >= 70
 3. **For Learning**: Study the top-scoring frameworks for best practices
 
 ---
@@ -103,3 +185,11 @@ Based on this synthesis:
 - [All Frameworks](frameworks/)
 - [Category Comparisons](comparisons/)
 - [Search](search.html)
+
+---
+
+<footer class="generation-meta">
+<small>Generated: 2025-12-01 19:23 UTC | Template: synthesis.md.j2 v2.0</small>
+</footer>
+
+<footer class="signature">∵ RCR Regis ∴</footer>

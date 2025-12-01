@@ -1,40 +1,113 @@
 ---
 title: Claude Swarm / SwarmSDK
-category: 
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # Claude Swarm / SwarmSDK
 
-∵ RCR Regis ∴
+<div class="framework-meta">
+<strong>Version:</strong> 2.5.1 |
+<strong>Repository:</strong> <a href="https://github.com/parruda/swarm">GitHub</a> |
+<strong>License:</strong> MIT
+</div>
 
-**Category:** 
-**Version:** 2.5.1
-**Status:** Analyzed
+## Classification
 
-## Scores
+<div class="facets">
+<span class="badge badge-tech">tech: sdk, cli</span>
+<span class="badge badge-exec">exec: multi-agent, parallel</span>
+<span class="badge badge-function">function: orchestration</span>
+<span class="badge badge-ecosystem">ecosystem: python</span>
+<span class="badge badge-scope">scope: session-level</span>
+<span class="badge badge-integration">integration: full-setup</span>
+<span class="badge badge-user">user: solo-dev, team</span>
+<span class="badge badge-complexity">complexity: high</span>
+<span class="badge badge-maturity">maturity: stable</span>
+<span class="badge badge-community">community: established</span>
+<span class="badge badge-maintenance">maintenance: active</span>
+</div>
 
-| Metric | Score | Rating |
-|--------|-------|--------|
-| SOLID Principles | 4.1/5.0 | ⭐⭐⭐⭐☆ |
-| Production Ready | 80/100 | 🟢 Production |
+## Scores Summary
 
-### SOLID Breakdown
+<div class="scores-grid">
+<table>
+<thead>
+<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Overall</strong></td>
+<td>4.1/5.0 ⭐⭐⭐⭐☆</td>
+<td><strong>Overall</strong></td>
+<td>80/100 🟢</td>
+</tr>
+<tr>
+<td>S - Single Responsibility</td>
+<td>4.5/5.0</td>
+<td>Reliability</td>
+<td>80</td>
+</tr>
+<tr>
+<td>O - Open/Closed</td>
+<td>4.0/5.0</td>
+<td>Observability</td>
+<td>75</td>
+</tr>
+<tr>
+<td>L - Liskov Substitution</td>
+<td>4.0/5.0</td>
+<td>Security</td>
+<td>82</td>
+</tr>
+<tr>
+<td>I - Interface Segregation</td>
+<td>4.0/5.0</td>
+<td>Performance</td>
+<td>85</td>
+</tr>
+<tr>
+<td>D - Dependency Inversion</td>
+<td>4.0/5.0</td>
+<td>Maintainability</td>
+<td>80</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-| Principle | Score | Notes |
-|-----------|-------|-------|
-| S - Single Responsibility | 4.5 | - |
-| O - Open/Closed | 4.0 | - |
-| L - Liskov Substitution | 4.0 | - |
-| I - Interface Segregation | 4.0 | - |
-| D - Dependency Inversion | 4.0 | - |
+## Key Innovations
 
-## Overview
+<ul class="compact-list">
+<li>Single-process architecture (v2) eliminating MCP overhead</li>
+<li>15x token efficiency via semantic memory search</li>
+<li>SwarmMemory with FAISS indexing and local ONNX embeddings</li>
+<li>Comprehensive hooks system (12 events, 6 action types)</li>
+<li>Dual-version strategy (v1 multi-process, v2 single-process)</li>
+<li>Node workflows for multi-stage pipelines</li>
+</ul>
 
-*No description available.*
+## Best For
 
+<ul class="compact-list">
+<li>Ruby/Rails development team automation</li>
+<li>Multi-agent research workflows</li>
+<li>Data processing pipelines</li>
+<li>Development team simulation</li>
+<li>Batch processing and automation</li>
+</ul>
 
+## Limitations
 
+<ul class="compact-list">
+<li>Ruby ecosystem lock-in (Ruby >= 3.2.0)</li>
+<li>Single-machine scaling only</li>
+<li>Ruby GVL limits true parallelism</li>
+<li>Learning curve for hook system complexity</li>
+<li>Smaller community than JavaScript alternatives</li>
+</ul>
+
+---
 
 ## Full Analysis
 
@@ -676,8 +749,12 @@ result = swarm.execute(agent: :lead, prompt: "Task", wait: false)
 
 ---
 
-## Navigation
+<footer class="generation-meta">
+<small>
+Generated: unknown UTC |
+Template: framework-page.md.j2 v2.0 |
+<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/claude-swarm">Source Data</a>
+</small>
+</footer>
 
-- [← Back to All Frameworks](index.md)
-- [Comparison with similar frameworks](../comparisons/.md)
-- [Full Synthesis](../synthesis.md)
+<footer class="signature">∵ RCR Regis ∴</footer>

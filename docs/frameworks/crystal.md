@@ -1,40 +1,114 @@
 ---
 title: Crystal
-category: 
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # Crystal
 
-∵ RCR Regis ∴
+<div class="framework-meta">
+<strong>Version:</strong> 0.3.3 |
+<strong>Repository:</strong> <a href="https://github.com/stravu/crystal">GitHub</a> |
+<strong>License:</strong> MIT
+</div>
 
-**Category:** 
-**Version:** 0.3.3
-**Status:** Analyzed
+## Classification
 
-## Scores
+<div class="facets">
+<span class="badge badge-tech">tech: prompt-based</span>
+<span class="badge badge-exec">exec: sequential</span>
+<span class="badge badge-function">function: dev-methodology</span>
+<span class="badge badge-ecosystem">ecosystem: agnostic</span>
+<span class="badge badge-scope">scope: project-level</span>
+<span class="badge badge-integration">integration: drop-in</span>
+<span class="badge badge-user">user: solo-dev</span>
+<span class="badge badge-complexity">complexity: low</span>
+<span class="badge badge-maturity">maturity: experimental</span>
+<span class="badge badge-community">community: emerging</span>
+<span class="badge badge-maintenance">maintenance: dormant</span>
+</div>
 
-| Metric | Score | Rating |
-|--------|-------|--------|
-| SOLID Principles | 4.0/5.0 | ⭐⭐⭐⭐☆ |
-| Production Ready | 74/100 | 🟡 Beta |
+## Scores Summary
 
-### SOLID Breakdown
+<div class="scores-grid">
+<table>
+<thead>
+<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Overall</strong></td>
+<td>4.0/5.0 ⭐⭐⭐⭐☆</td>
+<td><strong>Overall</strong></td>
+<td>74/100 🟡</td>
+</tr>
+<tr>
+<td>S - Single Responsibility</td>
+<td>4.0/5.0</td>
+<td>Reliability</td>
+<td>70</td>
+</tr>
+<tr>
+<td>O - Open/Closed</td>
+<td>4.0/5.0</td>
+<td>Observability</td>
+<td>80</td>
+</tr>
+<tr>
+<td>L - Liskov Substitution</td>
+<td>4.0/5.0</td>
+<td>Security</td>
+<td>75</td>
+</tr>
+<tr>
+<td>I - Interface Segregation</td>
+<td>4.0/5.0</td>
+<td>Performance</td>
+<td>75</td>
+</tr>
+<tr>
+<td>D - Dependency Inversion</td>
+<td>4.0/5.0</td>
+<td>Maintainability</td>
+<td>70</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-| Principle | Score | Notes |
-|-----------|-------|-------|
-| S - Single Responsibility | 4.0 | - |
-| O - Open/Closed | 4.0 | - |
-| L - Liskov Substitution | 4.0 | - |
-| I - Interface Segregation | 4.0 | - |
-| D - Dependency Inversion | 4.0 | - |
+## Key Innovations
 
-## Overview
+<ul class="compact-list">
+<li>"Integrated Vibe Environment (IVE)" paradigm</li>
+<li>Git worktree-based parallel session isolation</li>
+<li>Multi-provider desktop orchestration (Claude/Codex)</li>
+<li>Visual session state machine with indicators</li>
+<li>Bull queue job management for scalability</li>
+<li>Comprehensive diff visualization</li>
+</ul>
 
-*No description available.*
+## Best For
 
+<ul class="compact-list">
+<li>Parallel AI-assisted development sessions</li>
+<li>Multi-task workflows without wait times</li>
+<li>Visual session management and monitoring</li>
+<li>Cross-provider AI orchestration (Claude/Codex)</li>
+<li>Code review with integrated diff viewing</li>
+</ul>
 
+## Limitations
 
+<ul class="compact-list">
+<li>macOS-only binaries (Windows requires source build)</li>
+<li>Electron memory overhead limits parallelism</li>
+<li>Early maturity (v0.3.x) with known stability issues</li>
+<li>Limited planning/specification support</li>
+<li>56 open issues indicating active development</li>
+<li>Single platform focus</li>
+</ul>
+
+---
 
 ## Full Analysis
 
@@ -518,8 +592,12 @@ tool_panels           -- Panel configurations
 
 ---
 
-## Navigation
+<footer class="generation-meta">
+<small>
+Generated: unknown UTC |
+Template: framework-page.md.j2 v2.0 |
+<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/crystal">Source Data</a>
+</small>
+</footer>
 
-- [← Back to All Frameworks](index.md)
-- [Comparison with similar frameworks](../comparisons/.md)
-- [Full Synthesis](../synthesis.md)
+<footer class="signature">∵ RCR Regis ∴</footer>

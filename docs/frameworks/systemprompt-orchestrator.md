@@ -1,40 +1,94 @@
 ---
 title: systemprompt-orchestrator
-category: 
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # systemprompt-orchestrator
 
-∵ RCR Regis ∴
+<div class="framework-meta">
+<strong>Version:</strong> 0.01 |
+<strong>Repository:</strong> <a href="https://github.com/systempromptio/systemprompt-code-orchestrator">GitHub</a> |
+<strong>License:</strong> MIT
+</div>
 
-**Category:** 
-**Version:** 0.01
-**Status:** Analyzed
+## Classification
 
-## Scores
+<div class="facets">
+<span class="badge badge-tech">tech: prompt-based</span>
+<span class="badge badge-exec">exec: multi-agent</span>
+<span class="badge badge-function">function: orchestration</span>
+<span class="badge badge-ecosystem">ecosystem: agnostic</span>
+<span class="badge badge-scope">scope: session-level</span>
+<span class="badge badge-integration">integration: drop-in</span>
+<span class="badge badge-user">user: solo-dev</span>
+<span class="badge badge-complexity">complexity: moderate</span>
+<span class="badge badge-maturity">maturity: experimental</span>
+<span class="badge badge-community">community: emerging</span>
+<span class="badge badge-maintenance">maintenance: occasional</span>
+</div>
 
-| Metric | Score | Rating |
-|--------|-------|--------|
-| SOLID Principles | 4.3/5.0 | ⭐⭐⭐⭐☆ |
-| Production Ready | 67/100 | 🟡 Beta |
+## Scores Summary
 
-### SOLID Breakdown
+<div class="scores-grid">
+<table>
+<thead>
+<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Overall</strong></td>
+<td>4.3/5.0 ⭐⭐⭐⭐☆</td>
+<td><strong>Overall</strong></td>
+<td>67/100 🟡</td>
+</tr>
+<tr>
+<td>S - Single Responsibility</td>
+<td>5.0/5.0</td>
+<td>Reliability</td>
+<td>65</td>
+</tr>
+<tr>
+<td>O - Open/Closed</td>
+<td>5.0/5.0</td>
+<td>Observability</td>
+<td>70</td>
+</tr>
+<tr>
+<td>L - Liskov Substitution</td>
+<td>5.0/5.0</td>
+<td>Security</td>
+<td>72</td>
+</tr>
+<tr>
+<td>I - Interface Segregation</td>
+<td>5.0/5.0</td>
+<td>Performance</td>
+<td>62</td>
+</tr>
+<tr>
+<td>D - Dependency Inversion</td>
+<td>5.0/5.0</td>
+<td>Maintainability</td>
+<td>68</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-| Principle | Score | Notes |
-|-----------|-------|-------|
-| S - Single Responsibility | 5 | - |
-| O - Open/Closed | 5 | - |
-| L - Liskov Substitution | 5 | - |
-| I - Interface Segregation | 5 | - |
-| D - Dependency Inversion | 5 | - |
-
-## Overview
-
-*No description available.*
 
 
+## Limitations
 
+<ul class="compact-list">
+<li>early stage (v0.01)</li>
+<li>single machine focus</li>
+<li>network dependency for remote</li>
+<li>limited agent support</li>
+<li>documentation gaps</li>
+</ul>
+
+---
 
 ## Full Analysis
 
@@ -758,8 +812,12 @@ Future versions may address multi-machine scenarios as the project matures.
 
 ---
 
-## Navigation
+<footer class="generation-meta">
+<small>
+Generated: unknown UTC |
+Template: framework-page.md.j2 v2.0 |
+<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/systemprompt-orchestrator">Source Data</a>
+</small>
+</footer>
 
-- [← Back to All Frameworks](index.md)
-- [Comparison with similar frameworks](../comparisons/.md)
-- [Full Synthesis](../synthesis.md)
+<footer class="signature">∵ RCR Regis ∴</footer>

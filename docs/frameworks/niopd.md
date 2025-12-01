@@ -1,40 +1,114 @@
 ---
 title: NioPD (Nio Product Director)
-category: 
-layout: framework
+layout: default
+parent: Frameworks
 ---
 
 # NioPD (Nio Product Director)
 
-∵ RCR Regis ∴
+<div class="framework-meta">
+<strong>Version:</strong> 1.0.32 |
+<strong>Repository:</strong> <a href="https://github.com/iflow-ai/NioPD">GitHub</a> |
+<strong>License:</strong> MIT
+</div>
 
-**Category:** 
-**Version:** 1.0.32
-**Status:** Analyzed
+## Classification
 
-## Scores
+<div class="facets">
+<span class="badge badge-tech">tech: mcp-native</span>
+<span class="badge badge-exec">exec: single-agent</span>
+<span class="badge badge-function">function: project-planning</span>
+<span class="badge badge-ecosystem">ecosystem: agnostic</span>
+<span class="badge badge-scope">scope: project-level</span>
+<span class="badge badge-integration">integration: config-required</span>
+<span class="badge badge-user">user: solo-dev, team</span>
+<span class="badge badge-complexity">complexity: moderate</span>
+<span class="badge badge-maturity">maturity: stable</span>
+<span class="badge badge-community">community: emerging</span>
+<span class="badge badge-maintenance">maintenance: active</span>
+</div>
 
-| Metric | Score | Rating |
-|--------|-------|--------|
-| SOLID Principles | 3.9/5.0 | ⭐⭐⭐☆☆ |
-| Production Ready | 73/100 | 🟡 Beta |
+## Scores Summary
 
-### SOLID Breakdown
+<div class="scores-grid">
+<table>
+<thead>
+<tr><th colspan="2">SOLID Principles</th><th colspan="2">Production Ready</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Overall</strong></td>
+<td>3.9/5.0 ⭐⭐⭐☆☆</td>
+<td><strong>Overall</strong></td>
+<td>73/100 🟡</td>
+</tr>
+<tr>
+<td>S - Single Responsibility</td>
+<td>4.5/5.0</td>
+<td>Reliability</td>
+<td>70</td>
+</tr>
+<tr>
+<td>O - Open/Closed</td>
+<td>4.0/5.0</td>
+<td>Observability</td>
+<td>75</td>
+</tr>
+<tr>
+<td>L - Liskov Substitution</td>
+<td>3.5/5.0</td>
+<td>Security</td>
+<td>75</td>
+</tr>
+<tr>
+<td>I - Interface Segregation</td>
+<td>4.0/5.0</td>
+<td>Performance</td>
+<td>75</td>
+</tr>
+<tr>
+<td>D - Dependency Inversion</td>
+<td>3.5/5.0</td>
+<td>Maintainability</td>
+<td>70</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-| Principle | Score | Notes |
-|-----------|-------|-------|
-| S - Single Responsibility | 4.5 | - |
-| O - Open/Closed | 4.0 | - |
-| L - Liskov Substitution | 3.5 | - |
-| I - Interface Segregation | 4.0 | - |
-| D - Dependency Inversion | 3.5 | - |
+## Key Innovations
 
-## Overview
+<ul class="compact-list">
+<li>Socratic PM mentorship through Nio meta-agent</li>
+<li>12-agent specialist system for PM tasks</li>
+<li>Silent archiving of all conversations and artifacts</li>
+<li>Intelligent self-evolution via org-update commands</li>
+<li>File-based versioned knowledge base</li>
+<li>PM lifecycle coverage (27 commands)</li>
+</ul>
 
-*No description available.*
+## Best For
 
+<ul class="compact-list">
+<li>Product management workflow automation</li>
+<li>User research synthesis</li>
+<li>Competitor analysis</li>
+<li>PRD and roadmap generation</li>
+<li>Stakeholder reporting</li>
+<li>Strategic PM mentorship</li>
+</ul>
 
+## Limitations
 
+<ul class="compact-list">
+<li>PM-exclusive focus (no development support)</li>
+<li>Small community (65 stars)</li>
+<li>Claude Code/iFlow dependency</li>
+<li>Bus factor risk (2-3 maintainers)</li>
+<li>Variable agent quality (6-9/10)</li>
+</ul>
+
+---
 
 ## Full Analysis
 
@@ -500,8 +574,12 @@ This enables domain-specific adaptation (healthcare PM, fintech PM, etc.) withou
 
 ---
 
-## Navigation
+<footer class="generation-meta">
+<small>
+Generated: unknown UTC |
+Template: framework-page.md.j2 v2.0 |
+<a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/niopd">Source Data</a>
+</small>
+</footer>
 
-- [← Back to All Frameworks](index.md)
-- [Comparison with similar frameworks](../comparisons/.md)
-- [Full Synthesis](../synthesis.md)
+<footer class="signature">∵ RCR Regis ∴</footer>
