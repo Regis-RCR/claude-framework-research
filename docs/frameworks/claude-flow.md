@@ -23,11 +23,11 @@ layout: framework
 
 | Principle | Score | Notes |
 |-----------|-------|-------|
-| S - Single Responsibility | N/A | - |
-| O - Open/Closed | N/A | - |
-| L - Liskov Substitution | N/A | - |
-| I - Interface Segregation | N/A | - |
-| D - Dependency Inversion | N/A | - |
+| S - Single Responsibility | 3.0 | - |
+| O - Open/Closed | 4.0 | - |
+| L - Liskov Substitution | 4.0 | - |
+| I - Interface Segregation | 5.0 | - |
+| D - Dependency Inversion | 3.0 | - |
 
 ## Overview
 
