@@ -757,7 +757,7 @@ result = swarm.execute(agent: :lead, prompt: "Task", wait: false)
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-01 22:56 UTC |
+Generated: 2025-12-01 23:50 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/claude-swarm">Source Data</a>
 </small>
