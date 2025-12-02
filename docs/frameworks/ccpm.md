@@ -594,7 +594,7 @@ GitHub Issues as distributed database:
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-02 21:28 UTC |
+Generated: 2025-12-02 22:13 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/ccpm">Source Data</a>
 </small>
