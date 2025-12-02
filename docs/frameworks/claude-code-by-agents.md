@@ -863,7 +863,7 @@ interface ResourceLimits {
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-01 23:50 UTC |
+Generated: 2025-12-02 00:06 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/claude-code-by-agents">Source Data</a>
 </small>

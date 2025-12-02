@@ -1,6 +1,7 @@
 ---
 title: Project-Planning Comparison
-layout: comparison
+layout: default
+parent: Comparisons
 ---
 
 # Project-Planning Frameworks Comparison

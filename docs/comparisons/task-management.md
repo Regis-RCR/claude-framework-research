@@ -1,6 +1,7 @@
 ---
 title: Task-Management Comparison
-layout: comparison
+layout: default
+parent: Comparisons
 ---
 
 # Task-Management Frameworks Comparison
