@@ -19,22 +19,35 @@ Complete listing of 24 analyzed frameworks.
 
 ### By Technical Foundation
 - **cli** (5): [Claude Flow](frameworks/claude-flow.md), [Claude Squad](frameworks/claude-squad.md), [Claude Swarm / SwarmSDK](frameworks/claude-swarm-/-swarmsdk.md), [Clavix](frameworks/clavix.md), [GitHub Spec-Kit](frameworks/github-spec-kit.md)
+
 - **mcp-native** (4): [Claude Task Master](frameworks/claude-task-master.md), [NioPD (Nio Product Director)](frameworks/niopd-(nio-product-director).md), [Simone](frameworks/simone.md), [taskmaster-mcp](frameworks/taskmaster-mcp.md)
+
 - **prompt-based** (13): [Ab Method](frameworks/ab-method.md), [BMAD Method (Build More, Architect Dreams)](frameworks/bmad-method-(build-more,-architect-dreams).md), [CCPM (Claude Code PM)](frameworks/ccpm-(claude-code-pm).md), [claude-code-dev-kit](frameworks/claude-code-dev-kit.md), [claude-code-heavy](frameworks/claude-code-heavy.md), [Clavix](frameworks/clavix.md), [ContextKit](frameworks/contextkit.md), [Crystal](frameworks/crystal.md), [GitHub Spec-Kit](frameworks/github-spec-kit.md), [RIPER-5](frameworks/riper-5.md), [Simone](frameworks/simone.md), [SuperClaude](frameworks/superclaude.md), [systemprompt-orchestrator](frameworks/systemprompt-orchestrator.md)
+
 - **sdk** (6): [claude-code-by-agents](frameworks/claude-code-by-agents.md), [Claude on Rails](frameworks/claude-on-rails.md), [Claude Swarm / SwarmSDK](frameworks/claude-swarm-/-swarmsdk.md), [ClaudeKit](frameworks/claudekit.md), [MoAI-ADK (Agentic Development Kit)](frameworks/moai-adk-(agentic-development-kit).md), [wshobson/agents](frameworks/wshobson/agents.md)
+
 
 ### By Primary Function
 - **code-generation** (2): [Claude on Rails](frameworks/claude-on-rails.md), [ClaudeKit](frameworks/claudekit.md)
+
 - **context-management** (3): [CCPM (Claude Code PM)](frameworks/ccpm-(claude-code-pm).md), [ContextKit](frameworks/contextkit.md), [Simone](frameworks/simone.md)
+
 - **dev-methodology** (9): [Ab Method](frameworks/ab-method.md), [BMAD Method (Build More, Architect Dreams)](frameworks/bmad-method-(build-more,-architect-dreams).md), [claude-code-dev-kit](frameworks/claude-code-dev-kit.md), [claude-code-heavy](frameworks/claude-code-heavy.md), [Clavix](frameworks/clavix.md), [Crystal](frameworks/crystal.md), [GitHub Spec-Kit](frameworks/github-spec-kit.md), [RIPER-5](frameworks/riper-5.md), [SuperClaude](frameworks/superclaude.md)
+
 - **orchestration** (7): [claude-code-by-agents](frameworks/claude-code-by-agents.md), [Claude Flow](frameworks/claude-flow.md), [Claude Squad](frameworks/claude-squad.md), [Claude Swarm / SwarmSDK](frameworks/claude-swarm-/-swarmsdk.md), [MoAI-ADK (Agentic Development Kit)](frameworks/moai-adk-(agentic-development-kit).md), [systemprompt-orchestrator](frameworks/systemprompt-orchestrator.md), [wshobson/agents](frameworks/wshobson/agents.md)
+
 - **project-planning** (2): [BMAD Method (Build More, Architect Dreams)](frameworks/bmad-method-(build-more,-architect-dreams).md), [NioPD (Nio Product Director)](frameworks/niopd-(nio-product-director).md)
+
 - **task-management** (2): [Claude Task Master](frameworks/claude-task-master.md), [taskmaster-mcp](frameworks/taskmaster-mcp.md)
+
 
 ### By Maturity
 - **beta** (8): [CCPM (Claude Code PM)](frameworks/ccpm-(claude-code-pm).md), [claude-code-by-agents](frameworks/claude-code-by-agents.md), [Claude Flow](frameworks/claude-flow.md), [Claude on Rails](frameworks/claude-on-rails.md), [Claude Squad](frameworks/claude-squad.md), [ClaudeKit](frameworks/claudekit.md), [MoAI-ADK (Agentic Development Kit)](frameworks/moai-adk-(agentic-development-kit).md), [Simone](frameworks/simone.md)
+
 - **experimental** (3): [claude-code-heavy](frameworks/claude-code-heavy.md), [Crystal](frameworks/crystal.md), [systemprompt-orchestrator](frameworks/systemprompt-orchestrator.md)
+
 - **stable** (13): [Ab Method](frameworks/ab-method.md), [BMAD Method (Build More, Architect Dreams)](frameworks/bmad-method-(build-more,-architect-dreams).md), [claude-code-dev-kit](frameworks/claude-code-dev-kit.md), [Claude Swarm / SwarmSDK](frameworks/claude-swarm-/-swarmsdk.md), [Claude Task Master](frameworks/claude-task-master.md), [Clavix](frameworks/clavix.md), [ContextKit](frameworks/contextkit.md), [GitHub Spec-Kit](frameworks/github-spec-kit.md), [NioPD (Nio Product Director)](frameworks/niopd-(nio-product-director).md), [RIPER-5](frameworks/riper-5.md), [SuperClaude](frameworks/superclaude.md), [taskmaster-mcp](frameworks/taskmaster-mcp.md), [wshobson/agents](frameworks/wshobson/agents.md)
+
 
 ---
 

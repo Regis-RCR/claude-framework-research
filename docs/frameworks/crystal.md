@@ -600,7 +600,7 @@ tool_panels           -- Panel configurations
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-02 00:06 UTC |
+Generated: 2025-12-02 00:13 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/crystal">Source Data</a>
 </small>
