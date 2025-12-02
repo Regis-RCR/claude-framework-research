@@ -820,7 +820,7 @@ Future versions may address multi-machine scenarios as the project matures.
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-02 00:13 UTC |
+Generated: 2025-12-02 21:28 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/systemprompt-orchestrator">Source Data</a>
 </small>

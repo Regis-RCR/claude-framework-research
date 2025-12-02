@@ -13,7 +13,7 @@ Comparing 9 frameworks in the **dev-methodology** category.
 | Framework | Version | SOLID | Production | Best For |
 |-----------|---------|-------|------------|----------|
 | [Ab Method](../frameworks/ab-method.md) | 2.3.0 | 3.9/5.0 | 74/100 | - |
-| [BMAD Method (Build More, Architect Dreams)](../frameworks/bmad-method-(build-more,-architect-dreams).md) | 6.0.0-alpha.12 | 4.3/5.0 | 87/100 | - |
+| [BMAD Method (Build More, Architect Dreams)](../frameworks/bmad-method.md) | 6.0.0-alpha.12 | 4.3/5.0 | 87/100 | - |
 | [claude-code-dev-kit](../frameworks/claude-code-dev-kit.md) | 2.1.0 | 4.2/5.0 | 64/100 | - |
 | [claude-code-heavy](../frameworks/claude-code-heavy.md) | 1.0.0 | 3.8/5.0 | 52/100 | - |
 | [Clavix](../frameworks/clavix.md) | 5.7.1 | 4.1/5.0 | 72/100 | - |

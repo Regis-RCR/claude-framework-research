@@ -12,7 +12,7 @@ Comparing 3 frameworks in the **context-management** category.
 
 | Framework | Version | SOLID | Production | Best For |
 |-----------|---------|-------|------------|----------|
-| [CCPM (Claude Code PM)](../frameworks/ccpm-(claude-code-pm).md) | 1.0.0 | 3.7/5.0 | 72/100 | - |
+| [CCPM (Claude Code PM)](../frameworks/ccpm.md) | 1.0.0 | 3.7/5.0 | 72/100 | - |
 | [ContextKit](../frameworks/contextkit.md) | 1.0.0 | 3.8/5.0 | 75/100 | - |
 | [Simone](../frameworks/simone.md) | 0.4.0-mcp | 3.6/5.0 | 63/100 | - |
 

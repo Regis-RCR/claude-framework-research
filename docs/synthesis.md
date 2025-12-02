@@ -7,14 +7,14 @@ permalink: /synthesis/
 
 # Framework Synthesis
 
-Cross-framework analysis of 24 frameworks.
+Cross-framework analysis of 23 frameworks.
 
 ## Quick Stats
 
 | Metric | Value | | Metric | Value |
 |--------|-------|---|--------|-------|
-| Total Frameworks | 24 | | Categories | 1 |
-| Avg SOLID | 4.03/5.0 | | Avg Production | 72/100 |
+| Total Frameworks | 23 | | Categories | 1 |
+| Avg SOLID | 4.02/5.0 | | Avg Production | 72/100 |
 
 ## By Technical Foundation
 
@@ -25,7 +25,7 @@ Cross-framework analysis of 24 frameworks.
 </div>
 <div class="facet-card">
 <h4>mcp-native</h4>
-<ul><li>Claude Task Master</li><li>NioPD (Nio Product Director)</li><li>Simone</li><li>taskmaster-mcp</li></ul>
+<ul><li>Claude Task Master</li><li>NioPD (Nio Product Director)</li><li>Simone</li></ul>
 </div>
 <div class="facet-card">
 <h4>prompt-based</h4>
@@ -54,7 +54,7 @@ Cross-framework analysis of 24 frameworks.
 </div>
 <div class="facet-card">
 <h4>single-agent</h4>
-<ul><li>BMAD Method (Build More, Architect Dreams)</li><li>CCPM (Claude Code PM)</li><li>claude-code-heavy</li><li>Claude on Rails</li><li>Claude Task Master</li><li>ClaudeKit</li><li>Clavix</li><li>ContextKit</li><li>GitHub Spec-Kit</li><li>NioPD (Nio Product Director)</li><li>Simone</li><li>SuperClaude</li><li>taskmaster-mcp</li></ul>
+<ul><li>BMAD Method (Build More, Architect Dreams)</li><li>CCPM (Claude Code PM)</li><li>claude-code-heavy</li><li>Claude on Rails</li><li>Claude Task Master</li><li>ClaudeKit</li><li>Clavix</li><li>ContextKit</li><li>GitHub Spec-Kit</li><li>NioPD (Nio Product Director)</li><li>Simone</li><li>SuperClaude</li></ul>
 </div>
 </div>
 
@@ -83,7 +83,7 @@ Cross-framework analysis of 24 frameworks.
 </div>
 <div class="facet-card">
 <h4>task-management</h4>
-<ul><li>Claude Task Master</li><li>taskmaster-mcp</li></ul>
+<ul><li>Claude Task Master</li></ul>
 </div>
 </div>
 
@@ -96,7 +96,7 @@ Cross-framework analysis of 24 frameworks.
 </div>
 <div class="facet-card">
 <h4>low</h4>
-<ul><li>claude-code-dev-kit</li><li>Clavix</li><li>ContextKit</li><li>Crystal</li><li>RIPER-5</li><li>SuperClaude</li></ul>
+<ul><li>Ab Method</li><li>claude-code-dev-kit</li><li>Clavix</li><li>ContextKit</li><li>Crystal</li><li>RIPER-5</li><li>SuperClaude</li></ul>
 </div>
 <div class="facet-card">
 <h4>medium</h4>
@@ -104,7 +104,7 @@ Cross-framework analysis of 24 frameworks.
 </div>
 <div class="facet-card">
 <h4>moderate</h4>
-<ul><li>Ab Method</li><li>BMAD Method (Build More, Architect Dreams)</li><li>claude-code-by-agents</li><li>Claude on Rails</li><li>Claude Task Master</li><li>ClaudeKit</li><li>NioPD (Nio Product Director)</li><li>Simone</li><li>systemprompt-orchestrator</li><li>taskmaster-mcp</li></ul>
+<ul><li>BMAD Method (Build More, Architect Dreams)</li><li>claude-code-by-agents</li><li>Claude on Rails</li><li>Claude Task Master</li><li>ClaudeKit</li><li>NioPD (Nio Product Director)</li><li>Simone</li><li>systemprompt-orchestrator</li></ul>
 </div>
 <div class="facet-card">
 <h4>trivial</h4>
@@ -125,7 +125,7 @@ Cross-framework analysis of 24 frameworks.
 </div>
 <div class="facet-card">
 <h4>stable</h4>
-<ul><li>Ab Method</li><li>BMAD Method (Build More, Architect Dreams)</li><li>claude-code-dev-kit</li><li>Claude Swarm / SwarmSDK</li><li>Claude Task Master</li><li>Clavix</li><li>ContextKit</li><li>GitHub Spec-Kit</li><li>NioPD (Nio Product Director)</li><li>RIPER-5</li><li>SuperClaude</li><li>taskmaster-mcp</li><li>wshobson/agents</li></ul>
+<ul><li>Ab Method</li><li>BMAD Method (Build More, Architect Dreams)</li><li>claude-code-dev-kit</li><li>Claude Swarm / SwarmSDK</li><li>Claude Task Master</li><li>Clavix</li><li>ContextKit</li><li>GitHub Spec-Kit</li><li>NioPD (Nio Product Director)</li><li>RIPER-5</li><li>SuperClaude</li><li>wshobson/agents</li></ul>
 </div>
 </div>
 
@@ -193,5 +193,5 @@ Based on this synthesis:
 ---
 
 <footer class="generation-meta">
-<small>Generated: 2025-12-02 00:13 UTC | Template: synthesis.md.j2 v2.0</small>
+<small>Generated: 2025-12-02 21:28 UTC | Template: synthesis.md.j2 v2.0</small>
 </footer>

@@ -15,10 +15,10 @@ Comparing 7 frameworks in the **orchestration** category.
 | [claude-code-by-agents](../frameworks/claude-code-by-agents.md) | 0.1.41 | 4.5/5.0 | 69/100 | - |
 | [Claude Flow](../frameworks/claude-flow.md) | 2.7.4-alpha | 3.8/5.0 | 45/100 | - |
 | [Claude Squad](../frameworks/claude-squad.md) | 1.0.13 | 4.0/5.0 | 68/100 | - |
-| [Claude Swarm / SwarmSDK](../frameworks/claude-swarm-/-swarmsdk.md) | 2.5.1 | 4.1/5.0 | 80/100 | - |
-| [MoAI-ADK (Agentic Development Kit)](../frameworks/moai-adk-(agentic-development-kit).md) | 0.30.2 | 3.8/5.0 | 79/100 | - |
+| [Claude Swarm / SwarmSDK](../frameworks/claude-swarm-swarmsdk.md) | 2.5.1 | 4.1/5.0 | 80/100 | - |
+| [MoAI-ADK (Agentic Development Kit)](../frameworks/moai-adk.md) | 0.30.2 | 3.8/5.0 | 79/100 | - |
 | [systemprompt-orchestrator](../frameworks/systemprompt-orchestrator.md) | 0.01 | 4.3/5.0 | 67/100 | - |
-| [wshobson/agents](../frameworks/wshobson/agents.md) | 1.2.0 | 4.2/5.0 | 83/100 | - |
+| [wshobson/agents](../frameworks/wshobson-agents.md) | 1.2.0 | 4.2/5.0 | 83/100 | - |
 
 ## Rankings
 

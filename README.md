@@ -6,9 +6,9 @@ A comprehensive collection of Claude Code framework analyses.
 
 ## Overview
 
-- **24** frameworks analyzed
+- **23** frameworks analyzed
 - **1** categories
-- **4.03** average SOLID score
+- **4.02** average SOLID score
 
 ## Quick Start
 
@@ -21,14 +21,14 @@ Browse the documentation:
 
 ## Categories
 
-- **Uncategorized**: 24 frameworks
+- **Uncategorized**: 23 frameworks
 
 ## Recent Additions
 
+- RIPER-5 ()
 - Simone ()
 - SuperClaude ()
 - systemprompt-orchestrator ()
-- taskmaster-mcp ()
 - wshobson/agents ()
 
 ---

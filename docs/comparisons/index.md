@@ -45,11 +45,9 @@ Compare frameworks within the same category to make informed decisions.
 - BMAD Method (Build More, Architect Dreams) (SOLID: 4.3/5.0)
 - NioPD (Nio Product Director) (SOLID: 3.9/5.0)
 
-### [Task-Management](task-management.md)
+### Task-Management
 
-2 frameworks compared:
-- Claude Task Master (SOLID: 4.2/5.0)
-- taskmaster-mcp (SOLID: 4.2/5.0)
+*Only 1 framework in this category (no comparison available)*
 
 
 ## How to Use Comparisons

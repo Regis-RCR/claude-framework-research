@@ -4,13 +4,13 @@ title: Super-Hero Framework Vision
 
 # The Super-Hero Framework
 
-*What if we combined the best of all 24 frameworks?*
+*What if we combined the best of all 23 frameworks?*
 
 ## The Vision
 
 Take the best patterns from each category:
 
-### From Uncategorized (24 frameworks)
+### From Uncategorized (23 frameworks)
 
 - **Architecture Leader:** claude-code-by-agents
 - **Production Leader:** BMAD Method (Build More, Architect Dreams)
