@@ -704,7 +704,7 @@ Simone represents a thoughtful approach to the context decay problem in AI-assis
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-02 22:13 UTC |
+Generated: 2025-12-03 21:56 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/simone">Source Data</a>
 </small>

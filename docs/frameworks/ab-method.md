@@ -22,7 +22,7 @@ parent: Frameworks
 <span class="badge badge-scope">scope: project-level</span>
 <span class="badge badge-integration">integration: drop-in</span>
 <span class="badge badge-user">user: solo-dev</span>
-<span class="badge badge-complexity">complexity: low</span>
+<span class="badge badge-complexity">complexity: moderate</span>
 <span class="badge badge-maturity">maturity: stable</span>
 <span class="badge badge-community">community: growing</span>
 <span class="badge badge-maintenance">maintenance: active</span>
@@ -957,7 +957,7 @@ Each transition requires explicit action, ensuring deliberate progress through t
 
 <footer class="generation-meta">
 <small>
-Generated: 2025-12-02 22:13 UTC |
+Generated: 2025-12-03 21:56 UTC |
 Template: framework-page.md.j2 v2.0 |
 <a href="https://github.com/Regis-RCR/Research-framework/tree/main/corpus/frameworks/ab-method">Source Data</a>
 </small>

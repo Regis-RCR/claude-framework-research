@@ -96,7 +96,7 @@ Cross-framework analysis of 23 frameworks.
 </div>
 <div class="facet-card">
 <h4>low</h4>
-<ul><li>Ab Method</li><li>claude-code-dev-kit</li><li>Clavix</li><li>ContextKit</li><li>Crystal</li><li>RIPER-5</li><li>SuperClaude</li></ul>
+<ul><li>claude-code-dev-kit</li><li>Clavix</li><li>ContextKit</li><li>Crystal</li><li>RIPER-5</li><li>SuperClaude</li></ul>
 </div>
 <div class="facet-card">
 <h4>medium</h4>
@@ -104,7 +104,7 @@ Cross-framework analysis of 23 frameworks.
 </div>
 <div class="facet-card">
 <h4>moderate</h4>
-<ul><li>BMAD Method (Build More, Architect Dreams)</li><li>claude-code-by-agents</li><li>Claude on Rails</li><li>Claude Task Master</li><li>ClaudeKit</li><li>NioPD (Nio Product Director)</li><li>Simone</li><li>systemprompt-orchestrator</li></ul>
+<ul><li>Ab Method</li><li>BMAD Method (Build More, Architect Dreams)</li><li>claude-code-by-agents</li><li>Claude on Rails</li><li>Claude Task Master</li><li>ClaudeKit</li><li>NioPD (Nio Product Director)</li><li>Simone</li><li>systemprompt-orchestrator</li></ul>
 </div>
 <div class="facet-card">
 <h4>trivial</h4>
@@ -193,5 +193,5 @@ Based on this synthesis:
 ---
 
 <footer class="generation-meta">
-<small>Generated: 2025-12-02 22:13 UTC | Template: synthesis.md.j2 v2.0</small>
+<small>Generated: 2025-12-03 21:56 UTC | Template: synthesis.md.j2 v2.0</small>
 </footer>

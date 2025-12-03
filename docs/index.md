@@ -28,7 +28,7 @@ Welcome to the comprehensive framework analysis repository.
 
 3 frameworks in this category.
 
-- [CCPM (Claude Code PM)](frameworks/ccpm.md) - SOLID: 3.7/5.0
+- [CCPM (Claude Code PM)](frameworks/ccpm-(claude-code-pm).md) - SOLID: 3.7/5.0
 - [ContextKit](frameworks/contextkit.md) - SOLID: 3.8/5.0
 - [Simone](frameworks/simone.md) - SOLID: 3.6/5.0
 
@@ -37,7 +37,7 @@ Welcome to the comprehensive framework analysis repository.
 9 frameworks in this category.
 
 - [Ab Method](frameworks/ab-method.md) - SOLID: 3.9/5.0
-- [BMAD Method (Build More, Architect Dreams)](frameworks/bmad-method.md) - SOLID: 4.3/5.0
+- [BMAD Method (Build More, Architect Dreams)](frameworks/bmad-method-(build-more,-architect-dreams).md) - SOLID: 4.3/5.0
 - [claude-code-dev-kit](frameworks/claude-code-dev-kit.md) - SOLID: 4.2/5.0
 - [claude-code-heavy](frameworks/claude-code-heavy.md) - SOLID: 3.8/5.0
 - [Clavix](frameworks/clavix.md) - SOLID: 4.1/5.0
@@ -52,18 +52,18 @@ Welcome to the comprehensive framework analysis repository.
 
 - [Claude Flow](frameworks/claude-flow.md) - SOLID: 3.8/5.0
 - [Claude Squad](frameworks/claude-squad.md) - SOLID: 4.0/5.0
-- [Claude Swarm / SwarmSDK](frameworks/claude-swarm-swarmsdk.md) - SOLID: 4.1/5.0
+- [Claude Swarm / SwarmSDK](frameworks/claude-swarm-/-swarmsdk.md) - SOLID: 4.1/5.0
 - [claude-code-by-agents](frameworks/claude-code-by-agents.md) - SOLID: 4.5/5.0
-- [MoAI-ADK (Agentic Development Kit)](frameworks/moai-adk.md) - SOLID: 3.8/5.0
+- [MoAI-ADK (Agentic Development Kit)](frameworks/moai-adk-(agentic-development-kit).md) - SOLID: 3.8/5.0
 - [systemprompt-orchestrator](frameworks/systemprompt-orchestrator.md) - SOLID: 4.3/5.0
-- [wshobson/agents](frameworks/wshobson-agents.md) - SOLID: 4.2/5.0
+- [wshobson/agents](frameworks/wshobson/agents.md) - SOLID: 4.2/5.0
 
 ### Project-Planning
 
 2 frameworks in this category.
 
-- [BMAD Method (Build More, Architect Dreams)](frameworks/bmad-method.md) - SOLID: 4.3/5.0
-- [NioPD (Nio Product Director)](frameworks/niopd.md) - SOLID: 3.9/5.0
+- [BMAD Method (Build More, Architect Dreams)](frameworks/bmad-method-(build-more,-architect-dreams).md) - SOLID: 4.3/5.0
+- [NioPD (Nio Product Director)](frameworks/niopd-(nio-product-director).md) - SOLID: 3.9/5.0
 
 ### Task-Management
 
@@ -80,4 +80,4 @@ Welcome to the comprehensive framework analysis repository.
 
 ---
 
-*Last updated: 2025-12-02*
+*Last updated: 2025-12-03*

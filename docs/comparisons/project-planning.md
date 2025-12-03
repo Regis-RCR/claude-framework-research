@@ -1,7 +1,6 @@
 ---
 title: Project-Planning Comparison
-layout: default
-parent: Comparisons
+layout: comparison
 ---
 
 # Project-Planning Frameworks Comparison
@@ -12,8 +11,8 @@ Comparing 2 frameworks in the **project-planning** category.
 
 | Framework | Version | SOLID | Production | Best For |
 |-----------|---------|-------|------------|----------|
-| [BMAD Method (Build More, Architect Dreams)](../frameworks/bmad-method.md) | 6.0.0-alpha.12 | 4.3/5.0 | 87/100 | - |
-| [NioPD (Nio Product Director)](../frameworks/niopd.md) | 1.0.32 | 3.9/5.0 | 73/100 | - |
+| [BMAD Method (Build More, Architect Dreams)](../frameworks/bmad-method-(build-more,-architect-dreams).md) | 6.0.0-alpha.12 | 4.3/5.0 | 87/100 | - |
+| [NioPD (Nio Product Director)](../frameworks/niopd-(nio-product-director).md) | 1.0.32 | 3.9/5.0 | 73/100 | - |
 
 ## Rankings
 
